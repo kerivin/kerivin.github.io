@@ -5,10 +5,10 @@ layout: default
 <div class="posts">
   <ul>
     {% for post in site.posts %}
-      <li div class="post-block">
+      <li class="post-block">
         <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
         <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
-      </div>
+      </li>
     {% endfor %}
   </ul>
 </div>
