@@ -219,9 +219,11 @@ img {
 //}
 
 .post-title-block {
-  font-family: $blackIron;
+  font-family: $jetBrainsMono;
   font-size: 32px;
-  margin: 20px;
+  text-weight: bold;
+  //margin: 20px;
+  width: 100vw;
   border-bottom: 2px solid $black;
   text-decoration: none;
 
