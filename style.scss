@@ -20,7 +20,7 @@ html {
 
 body {
   background: $beige;
-  font: 18px/1.4 $sligoil;
+  font: 18px/1.4 $textFont;
   color: $darkGray;
   font-weight: 150;
   min-height: 100vh;
@@ -36,7 +36,7 @@ body {
 //}
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $deutschGothic;
+  font-family: $headerFont;
   color: inherit;
   font-weight: normal;
 
@@ -77,7 +77,7 @@ a {
   color: inherit;
   cursor: pointer;
   &:hover, &:active {
-    background: $lemonYellow;
+    background: $elemColor;
    }
 }
 
@@ -126,12 +126,12 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $lemonYellow;
-  background: $grayGreen;
+  color: $bgColor;
+  background: $elemColor;
 }
 ::selection {
-  color: $lemonYellow;
-  background: $grayGreen;
+  color: $bgColor;
+  background: $elemColor;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -159,8 +159,8 @@ img {
 }
 
 .masthead {
-  border-bottom: 2px solid $lemonYellow;
-  background: $grayGreen;
+  border-bottom: 2px solid $lineColor;
+  background: $headerBgColor;
   display: block;
 
   @include mobile {
@@ -182,9 +182,9 @@ img {
 .site-name {
   margin: 0;
   padding-left: 20px;
-  color: $lemonYellow;
+  color: $siteTitleColor;
   cursor: pointer;
-  font-family: $deutschGothic;
+  font-family: $siteTitleFont;
   font-weight: normal;
   font-size: 40px;
   letter-spacing: 1px;
@@ -211,9 +211,9 @@ img {
 }
 
 .social {
-  font-family: $sligoil;
+  font-family: $textFont;
   border-radius: 25px;
-  border: 2px solid $lemonYellow;
+  border: 2px solid $lineColor;
   padding: 20px;
   width: 20px;
   height: 15px;
@@ -226,14 +226,14 @@ img {
 .post-block {
   margin: 0px;
   padding: 5px;
-  border-bottom: 2px solid $lemonYellow;
+  border-bottom: 2px solid $lineColor;
   text-decoration: none;
   font-size: 18px;
   display: block;
   flex-wrap: wrap;
   flex-direction: row;
-  color: $lemonYellow;
-  background: $grayGreen;
+  color: $postBlockTextColor;
+  background: $postBlockBgColor;
 
   a {
     text-decoration: none;
@@ -245,7 +245,7 @@ img {
 }
 
 .post-title {
-  font-family: $sligoil;
+  font-family: $postBlockTitleFont;
   font-weight: bold;
   font-style: normal;
 
@@ -255,7 +255,7 @@ img {
 }
 
 .post-date {
-  font-family: $sligoil;
+  font-family: $postBlockDateFont;
   font-weight: 100;
   font-style: italic;
 }
@@ -294,7 +294,7 @@ img {
   a {
     text-decoration: underline dotted;
     &:hover, &:active {
-      background: $lemonYellow;
+      background: $elemColor;
    }
   }
 
