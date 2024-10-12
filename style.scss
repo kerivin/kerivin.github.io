@@ -296,7 +296,7 @@ img {
   a {
     text-decoration: underline dotted;
     &:hover, &:active {
-      color: 
+      color: $textColor;
       background: $elemColor;
    }
   }
