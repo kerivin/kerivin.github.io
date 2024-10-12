@@ -3,14 +3,12 @@ layout: default
 ---
 
 <div class="posts">
-  <ul>
     {% for post in site.posts %}
-      <li class="post-block">
-        <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+      <a class="post-block" href="{{ post.url }}">
+        <span class="post-title">{{ post.title }}</span>
         <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
-      </li>
+      </a>
     {% endfor %}
-  </ul>
 </div>
 
 <style>
