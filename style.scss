@@ -28,11 +28,6 @@ body {
   flex-direction: column;
 }
 
-div {
-  margin: 0px;
-  padding: 0px;
-}
-
 //.container {
   //margin: 0px;
   //max-width: 100vw;
@@ -230,10 +225,10 @@ img {
 
 .post-title-block {
   margin: 0;
-  padding: 30px;
+  padding: 5px;
   font-family: $jetBrainsMono;
   font-size: 18px;
-  text-weight: bold;
+  font-weight: bold;
   //margin: 20px;
   width: 100vw;
   border-bottom: 2px solid $black;
@@ -251,6 +246,7 @@ img {
     padding: 0px;
   }
 }
+
 //.posts > .post {
   // border-bottom: 2px solid $black;
   //font-family: $blackIron;
