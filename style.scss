@@ -241,11 +241,9 @@ img {
   font-weight: normal;
   font-style: normal;
   margin-left: 10%;
-  margin-right: 10%;
 
   @include mobile {
     margin-left: 0;
-     margin-right: 0;
   }
 }
 
@@ -255,6 +253,11 @@ img {
   font-style: italic;
   font-size: 24px;
   float: right;
+  margin-right: 10%;
+
+  @include mobile {
+    margin-left: 0;
+  }
 }
 
 .posts {
@@ -263,7 +266,7 @@ img {
     &:hover, &:active {
       color: $postBlockBgColor;
       background: $postBlockTextColor;
-      text-decoration: underline dotted;
+      text-decoration: none;
    }
   }
   
