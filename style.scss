@@ -21,7 +21,7 @@ html {
 body {
   background: $beige;
   font: 18px/1.4 $sligoil;
-  color: $black;
+  color: $darkGrey;
   font-weight: 150;
   min-height: 100vh;
   display: flex;
@@ -36,8 +36,8 @@ body {
 //}
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $blackIron;
-  color: $black;
+  font-family: $deutschGothic;
+  color: inherit;
   font-weight: normal;
 
   line-height: 1.7;
@@ -74,7 +74,7 @@ p {
 }
 
 a {
-  color: $black;
+  color: inherit;
   cursor: pointer;
   &:hover, &:active {
     background: $lemonYellow;
@@ -159,8 +159,9 @@ img {
 }
 
 .masthead {
-  border-bottom: 2px solid $black;
+  border-bottom: 2px solid $lemonYellow;
   background: $grayGreen;
+  display: block;
 
   @include mobile {
     text-align: center;
@@ -184,7 +185,7 @@ img {
   color: $lemonYellow;
   cursor: pointer;
   font-family: $deutschGothic;
-  font-weight: 300;
+  font-weight: normal;
   font-size: 40px;
   letter-spacing: 1px;
   text-decoration: none;
@@ -202,8 +203,6 @@ img {
 .site-description {
   display: inline-block;
   margin: 20px;
-  // margin: -5px 0 0 0;
-  color: $black;
   font-size: 16px;
 
   @include mobile {
@@ -214,7 +213,7 @@ img {
 .social {
   font-family: $sligoil;
   border-radius: 25px;
-  border: 2px solid $black;
+  border: 2px solid $lemonYellow;
   padding: 20px;
   width: 20px;
   height: 15px;
@@ -227,19 +226,20 @@ img {
 .post-block {
   margin: 0px;
   padding: 5px;
-  border-bottom: 2px solid $black;
+  border-bottom: 2px solid $lemonYellow;
   text-decoration: none;
   font-size: 18px;
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   flex-direction: row;
-  color: $grayGreen;
-  background: $beige;
+  color: $lemonYellow;
+  background: $grayGreen;
 
   a {
     text-decoration: none;
     &:hover, &:active {
-      background: $lemonYellow;
+      //background: $lemonYellow;
+      text-decoration: underline dotted;
    }
   }
 }
@@ -286,7 +286,7 @@ img {
 
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $black;
+    border-left: 2px solid $grayGreen;
     padding: 0.1em 1em;
     background: $lemonYellow;
   }
