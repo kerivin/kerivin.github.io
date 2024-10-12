@@ -247,13 +247,13 @@ img {
       //color: $teal;
       background: $green;
    }
+  }
 
    h1 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
    }
-  }
 
   @include mobile {
     width: 90%;
