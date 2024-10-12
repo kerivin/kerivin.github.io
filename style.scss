@@ -247,7 +247,7 @@ img {
 
 .post-title {
   font-family: $postBlockTitleFont;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
 
   @include mobile {
@@ -279,6 +279,7 @@ img {
 //}
 
 .post {
+  color: $textColor;
   width: 40%;
   margin-top: 30px;
   margin-left: auto;
@@ -287,7 +288,7 @@ img {
 
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $grayGreen;
+    border-left: 4px solid $grayGreen;
     padding: 0.1em 1em;
     background: $lemonYellow;
   }
@@ -295,6 +296,7 @@ img {
   a {
     text-decoration: underline dotted;
     &:hover, &:active {
+      color: 
       background: $elemColor;
    }
   }
