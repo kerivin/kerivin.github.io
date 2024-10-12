@@ -76,11 +76,12 @@ p {
 a {
   color: $black;
   cursor: pointer;
-  text-decoration: underline;
-  //&:hover, &:active {
-    //text-decoration: underline;
+  //text-decoration: underline;
+  &:hover, &:active {
+    text-decoration: underline;
     //color: $teal;
-  // }
+    background: $green;
+   }
 }
 
 ul, ol {
@@ -161,7 +162,7 @@ img {
 }
 
 .masthead {
-  padding: 10px 0;
+  // padding: 10px 0;
   border-bottom: 2px solid $black;
   background: $green;
 
@@ -182,6 +183,7 @@ img {
 
 .site-name {
   //margin: 10px 0;
+  padding: 10px 0;
   color: $black;
   cursor: pointer;
   font-family: $deutschGothic;
@@ -235,6 +237,15 @@ img {
     background: $green;
     //font-size: 22px;
     //font-style: italic;
+  }
+
+  a {
+    text-decoration: underline dotted;
+    &:hover, &:active {
+      //text-decoration: underline;
+      //color: $teal;
+      background: $green;
+   }
   }
 
   @include mobile {
