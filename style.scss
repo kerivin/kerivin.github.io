@@ -249,6 +249,7 @@ img {
   font-family: $postBlockTitleFont;
   font-weight: normal;
   font-style: normal;
+  margin-left: 30%;
 
   @include mobile {
     margin-left: 0;
