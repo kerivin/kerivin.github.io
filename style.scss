@@ -33,12 +33,12 @@ div {
   padding: 0px;
 }
 
-.container {
-  margin: 0px;
-  max-width: 100vw;
-  padding: 0px;
-  width: 100%;
-}
+//.container {
+  //margin: 0px;
+  //max-width: 100vw;
+  //padding: 0px;
+  //width: 100%;
+//}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $blackIron;
@@ -90,9 +90,9 @@ a {
 }
 
 ul, ol {
-  //margin: 15px 0;
-  margin: 0px;
-  padding-left: 30px;
+  margin: 15px 0;
+  //margin: 0px;
+  //padding-left: 30px;
 }
 
 ul {
@@ -228,10 +228,6 @@ img {
 //
 // .main
 //
-
-.main {
-  margin: 0px;
-}
 
 .post-title-block {
   margin: 0;
