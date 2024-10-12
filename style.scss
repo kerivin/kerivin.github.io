@@ -65,7 +65,6 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
 }
 
 p {
@@ -75,11 +74,12 @@ p {
 
 a {
   color: $black;
-  text-decoration: none;
+  font-size: 16px;
+  text-decoration: underline dotted;
 	cursor: pointer;
-  &:hover, &:active {
-    color: $teal;
-  }
+  //&:hover, &:active {
+    //color: $teal;
+  //}
 }
 
 ul, ol {
@@ -247,8 +247,7 @@ nav {
 //
 
 .posts > .post {
-  max-width: 50%;
-  padding-bottom: 2em;
+  width: 50%;
   border-bottom: 2px solid $black;
 
   @include mobile {
@@ -262,6 +261,8 @@ nav {
 }
 
 .post {
+  background: &biege;
+
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $black;
