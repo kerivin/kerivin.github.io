@@ -26,6 +26,17 @@ $gray: #666;
 $lightGray: #eee;
 $white: #fff;
 
+// Templates
+$bgColor: $grayGreen;
+$elemColor: $lemonYellow;
+
+$headerBgColor: $bgColor;
+$headerTextColor: $elemColor;
+$lineColor: $elemColor;
+$postBlockBgColor: $bgColor;
+$postBlockTextColor: $elemColor;
+$textColor: $grayGreen;
+
 // Font stacks
 $harrowgate: "Harrowgate";
 $robert: "Robert";
