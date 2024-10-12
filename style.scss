@@ -217,8 +217,9 @@ img {
 .post-link {
   font-family: $blackIron;
   font-size: 32px;
-  margin: 10px;
+  margin: 5px;
   border-bottom: 2px solid $black;
+  text-decoration: none;
 }
 
 //.posts > .post {
