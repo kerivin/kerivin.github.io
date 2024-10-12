@@ -123,7 +123,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $brown;
+  color: $teal;
 }
 
 // Specify the color of the selection
@@ -248,12 +248,7 @@ nav {
 //
 
 .posts > .post {
-  width: 50%;
-  border-bottom: 2px solid $black;
-
-  @include mobile {
-    max-width: 90%;
-  }
+  // border-bottom: 2px solid $black;
 }
 
 .posts > .post:last-child {
@@ -264,23 +259,21 @@ nav {
 .post {
   background: $beige;
   width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $black;
     padding: 0.1em 1em;
-    color: $green;
-    font-size: 22px;
-    font-style: italic;
+    color: $black;
+    background: $green;
+    //font-size: 22px;
+    //font-style: italic;
   }
 
   .comments {
     margin-top: 10px;
-  }
-
-  .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
   }
 }
 
