@@ -207,10 +207,14 @@ img {
 // .main
 //
 
-.posts > .post {
-  // border-bottom: 2px solid $black;
+.posts {
   font-family: $blackIron;
 }
+
+//.posts > .post {
+  // border-bottom: 2px solid $black;
+  //font-family: $blackIron;
+//}
 
 .posts > .post:last-child {
   padding-bottom: 1em;
@@ -223,6 +227,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+  font-weight: 150;
 
   blockquote {
     margin: 1.8em .8em;
