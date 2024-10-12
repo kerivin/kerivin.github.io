@@ -155,14 +155,12 @@ img {
 //
 
 .wrapper-masthead {
-  //margin-bottom: 20px;
-  margin: 0;
+  margin-bottom: 20px;
 }
 
 .masthead {
-  // padding: 10px 0;
   border-bottom: 2px solid $black;
-  background: $redGreen;
+  background: $green;
 
   @include mobile {
     text-align: center;
@@ -226,7 +224,7 @@ img {
   font-family: $jetBrainsMono;
   font-size: 18px;
   font-weight: bold;
-  width: 100vw;
+  //width: 100vw;
   border-bottom: 2px solid $black;
   text-decoration: none;
   text-align: center;
@@ -259,7 +257,6 @@ img {
 //}
 
 .post {
-  // background: $beige;
   width: 40%;
   margin-left: auto;
   margin-right: auto;
@@ -270,8 +267,6 @@ img {
     border-left: 2px solid $black;
     padding: 0.1em 1em;
     background: $green;
-    //font-size: 22px;
-    //font-style: italic;
   }
 
   a {
