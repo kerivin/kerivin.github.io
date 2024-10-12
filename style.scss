@@ -78,7 +78,7 @@ a {
   cursor: pointer;
   //text-decoration: underline;
   &:hover, &:active {
-    text-decoration: underline;
+    //text-decoration: underline;
     //color: $teal;
     background: $green;
    }
@@ -211,7 +211,7 @@ img {
 .posts {
   font-family: $blackIron;
   font-size: 32px;
-  text-decoration: none;
+  
 }
 
 //.posts > .post {
@@ -251,6 +251,7 @@ img {
    h1 {
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
    }
   }
 
