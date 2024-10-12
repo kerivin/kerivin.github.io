@@ -26,7 +26,7 @@ $gray: #666;
 $lightGray: #eee;
 $white: #fff;
 
-// Templates
+// Color templates
 $bgColor: $grayGreen;
 $elemColor: $lemonYellow;
 
@@ -47,6 +47,13 @@ $jetBrainsMono: "JetBrains Mono";
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+
+// Font templates
+$siteTitleFont: $deutschGothic;
+$postBlockTitleFont: $sligoil;
+$postBlockDateFont: $deutschGothic;
+$headerFont: $sligoil;
+$textFont: $sligoil;
 
 // Mobile breakpoints
 @mixin mobile {
