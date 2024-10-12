@@ -258,9 +258,10 @@ nav {
 
 .post {
   background: $beige;
-  width: 50%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px;
 
   blockquote {
     margin: 1.8em .8em;
@@ -274,6 +275,10 @@ nav {
 
   .comments {
     margin-top: 10px;
+  }
+
+  @include mobile {
+    width: 90%;
   }
 }
 
