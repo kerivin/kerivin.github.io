@@ -20,7 +20,7 @@ html {
 
 body {
   background: $beige;
-  font: 18px/1.4 $jetBrainsMono;
+  font: 18px/1.4 $sligoil;
   color: $black;
   font-weight: 150;
   min-height: 100vh;
@@ -183,7 +183,7 @@ img {
   padding-left: 20px;
   color: $black;
   cursor: pointer;
-  font-family: $deutschGothic;
+  font-family: $robert;
   font-weight: 300;
   font-size: 40px;
   letter-spacing: 1px;
@@ -211,7 +211,7 @@ img {
 }
 
 .social {
-  font-family: $jetBrainsMono;
+  font-family: $sligoil;
   border-radius: 25px;
   border: 2px solid $black;
   padding: 20px;
@@ -245,7 +245,7 @@ img {
 }
 
 .post-title {
-  font-family: $jetBrainsMono;
+  font-family: $sligoil;
   font-size: 18px;
   font-weight: bold;
   margin-left: 30%;
