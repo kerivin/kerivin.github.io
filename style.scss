@@ -52,6 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   text-align: center;
+  width : 50%;
   a {
     color: inherit;
   }
@@ -79,10 +80,10 @@ a {
   text-decoration: none;
   cursor: pointer;
   text-decoration: underline dotted;
-  &:hover, &:active {
-    text-decoration: underline;
+  //&:hover, &:active {
+    //text-decoration: underline;
     //color: $teal;
-  }
+  // }
 }
 
 ul, ol {
