@@ -160,7 +160,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  // border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $black;
   border-botton: none;
 
   @include mobile {
@@ -218,8 +218,8 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $jetBrainsMono;
-  font-size: 18px;
+  font-family: $blackIron;
+  font-size: 16px;
 
   @include mobile {
     float: none;
@@ -230,7 +230,7 @@ nav {
 
   a {
     margin-left: 0px;
-    color: $darkGray;
+    color: $black;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
