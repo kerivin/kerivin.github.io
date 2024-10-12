@@ -91,8 +91,7 @@ a {
 
 ul, ol {
   margin: 15px 0;
-  //margin: 0px;
-  //padding-left: 30px;
+  padding-left: 30px;
 }
 
 ul {
@@ -246,6 +245,12 @@ img {
   }
 }
 
+.posts {
+  ul, ol {
+    margin: 0px;
+    padding: 0px;
+  }
+}
 //.posts > .post {
   // border-bottom: 2px solid $black;
   //font-family: $blackIron;
