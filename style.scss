@@ -223,7 +223,7 @@ img {
 // .main
 //
 
-.post-title-block {
+.post-block {
   margin: 0px;
   padding: 5px;
   font-family: $jetBrainsMono;
@@ -245,6 +245,14 @@ img {
       background: $green;
    }
   }
+}
+
+.post-title {
+}
+
+.post-date {
+  font-family: $deutschGothic;
+  font-size: 28px;
 }
 
 .posts {
