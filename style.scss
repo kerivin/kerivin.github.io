@@ -183,7 +183,7 @@ img {
 
 .site-name {
   //margin: 10px 0;
-  padding: 10px 0;
+  //padding: 10px 0;
   color: $black;
   cursor: pointer;
   font-family: $deutschGothic;
@@ -193,8 +193,8 @@ img {
 }
 
 .site-description {
-  width: 50%;
-  padding: 40px 0;
+  display: inline-block;
+  margin: 20px;
   // margin: -5px 0 0 0;
   color: $black;
   font-size: 16px;
