@@ -238,7 +238,8 @@ img {
   a {
     text-decoration: none;
     &:hover, &:active {
-      //background: $lemonYellow;
+      color: $postBlockBgColor;
+      background: $postBlockTextColor;
       text-decoration: underline dotted;
    }
   }
