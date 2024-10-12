@@ -234,15 +234,6 @@ img {
   flex-direction: row;
   color: $postBlockTextColor;
   background: $postBlockBgColor;
-
-  a {
-    text-decoration: none;
-    &:hover, &:active {
-      color: $postBlockBgColor;
-      background: $postBlockTextColor;
-      text-decoration: underline dotted;
-   }
-  }
 }
 
 .post-title {
@@ -265,6 +256,15 @@ img {
 }
 
 .posts {
+  a {
+    text-decoration: none;
+    &:hover, &:active {
+      color: $postBlockBgColor;
+      background: $postBlockTextColor;
+      text-decoration: underline dotted;
+   }
+  }
+  
   ul, ol {
     margin: 0px;
     padding: 0px;
