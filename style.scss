@@ -22,6 +22,9 @@ body {
   background: $green;
   font: 18px/1.4 $jetBrainsMono;
   color: $black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -33,7 +36,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $blackIron;
-  color: $darkerGray;
+  color: $black;
   font-weight: normal;
 
   line-height: 1.7;
@@ -124,11 +127,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $green;
-  background: $brown;
+  background: $black;
 }
 ::selection {
   color: $green;
-  background: $brown;
+  background: $black;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -158,6 +161,7 @@ img {
 .masthead {
   padding: 20px 0;
   // border-bottom: 1px solid $lightGray;
+  border-botton: none;
 
   @include mobile {
     text-align: center;
@@ -225,7 +229,7 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-left: 0px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
@@ -233,7 +237,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $teal;
     }
   }
 }
@@ -244,7 +248,8 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  // border-bottom: 1px solid $lightGray;
+  border-bottom: none;
 }
 
 .posts > .post:last-child {
@@ -255,9 +260,9 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 2px solid $black;
     padding: 0.1em 1em;
-    color: $gray;
+    color: $green;
     font-size: 22px;
     font-style: italic;
   }
@@ -280,8 +285,9 @@ nav {
 }
 
 footer {
-  padding: 20px 0;
-  text-align: center;
+  margin-top: auto;
+  // padding: 20px 0;
+  // text-align: center;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
