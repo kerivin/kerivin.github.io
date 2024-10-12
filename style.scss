@@ -23,7 +23,6 @@ body {
   font: 18px/1.4 $jetBrainsMono;
   color: $black;
   font-weight: 300;
-  max-weight: 70vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -264,6 +263,7 @@ nav {
 
 .post {
   background: $beige;
+  width: 50%;
 
   blockquote {
     margin: 1.8em .8em;
