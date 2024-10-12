@@ -21,6 +21,7 @@ html {
 body {
   background: $green;
   font: 18px/1.4 $jetBrainsMono;
+  font-weight: 300;
   color: $black;
   min-height: 100vh;
   display: flex;
@@ -29,7 +30,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 90vw;
+  max-width: 100vw;
   padding: 0 10px;
   width: 100%;
 }
@@ -159,9 +160,8 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $black;
-  border-botton: none;
+  // padding: 20px 0;
+  border-bottom: 2px solid $black;
 
   @include mobile {
     text-align: center;
