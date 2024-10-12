@@ -22,7 +22,7 @@ body {
   background: $green;
   font: 18px/1.4 $jetBrainsMono;
   color: $black;
-  font-weight: 300;
+  font-weight: 150;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -161,7 +161,7 @@ img {
 }
 
 .masthead {
-  // padding: 20px 0;
+  padding: 20px 0;
   border-bottom: 2px solid $black;
 
   @include mobile {
@@ -258,16 +258,15 @@ nav {
 
 .post {
   background: $beige;
-  width: 40%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 20px;
 
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $black;
     padding: 0.1em 1em;
-    color: $black;
     background: $green;
     //font-size: 22px;
     //font-style: italic;
