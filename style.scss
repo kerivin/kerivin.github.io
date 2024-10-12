@@ -223,10 +223,11 @@ img {
 // .main
 //
 
-//.posts {
-  //font-family: $blackIron;
-  //font-size: 32px;
-//}
+.posts {
+  ul {
+    margin: 0;
+  }
+}
 
 .post-title-block {
   margin: 0;
