@@ -21,7 +21,7 @@ html {
 body {
   background: $green;
   font: 18px/1.4 $jetBrainsMono;
-  color: $teal;
+  color: $black;
 }
 
 .container {
@@ -123,12 +123,12 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: $green;
+  background: $brown;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: $green;
+  background: $brown;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -276,7 +276,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $green;
 }
 
 footer {
