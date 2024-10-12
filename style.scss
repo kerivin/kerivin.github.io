@@ -226,9 +226,6 @@ img {
 .post-block {
   margin: 0px;
   padding: 5px;
-  font-family: $jetBrainsMono;
-  font-size: 18px;
-  font-weight: bold;
   //width: 100vw;
   border-bottom: 2px solid $black;
   text-decoration: none;
@@ -248,6 +245,9 @@ img {
 }
 
 .post-title {
+  font-family: $jetBrainsMono;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .post-date {
