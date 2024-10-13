@@ -5,21 +5,19 @@ layout: default
 <div class="posts">
   <ul>
     {% for post in site.posts %}
-      <li>
-        <div class="post-block">
-          <a href="{{ post.url }}">
-            {% if post.featured %}
-               <span>&#10033;</span>
-            {% endif %}
-            <span class="post-title">{{ post.title }}</span>
-            <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
-          </a>
-            {% if post.image %}
-              <div class="wrapper-post-image">
-                <img class="post-image" src="{{ post.image }}" alt="{{ post.title }}">
-              </div>
-            {% endif %}
-        </div>
+      <li class="post-block-area">
+        <a class="post-block" href="{{ post.url }}>
+          {% if post.featured %}
+             <span>&#10033;</span>
+          {% endif %}
+          <span class="post-title">{{ post.title }}</span>
+          <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+          {% if post.image %}
+            <div class="wrapper-post-image">
+              <img class="post-image" src="{{ post.image }}" alt="{{ post.title }}">
+            </div>
+          {% endif %}
+        </a>
       </li>
     {% endfor %}
   </ul>
