@@ -249,16 +249,14 @@ img {
   display: flex;
   justify-content: space-around;
 
-  @media screen {
-    .post-image {
-      display: none;
-      position: absolute;
-      z-index: 50;
-      transform: translate(calc(50vw - 50%), 20px);
-      filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-      -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-      -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-    }
+  .post-image {
+    display: none;
+    position: absolute;
+    z-index: 50;
+    transform: translate(calc(50vw - 50%), 20px);
+    filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+    -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+    -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
   }
   
   &:hover, &:active {
@@ -267,12 +265,16 @@ img {
     text-decoration: none;
   }
 
-  @media screen {
-    &:hover {
-      .post-image {
-        display: block;
-      }
+  &:hover {
+    .post-image {
+      display: block;
     }
+  }
+  
+  @include mobile {
+    .post-image {
+      display: none;
+    }    
   }
 }
 
