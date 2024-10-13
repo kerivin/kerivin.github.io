@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Twitter/X vs Nostr vs Mastodon vs Bluesky vs Threads vs Tumblr
+tags: twitter x nostr tumblr bluesky mastodon threads instagram
+featured: true
+image: 'https://i.pinimg.com/originals/7f/96/24/7f9624334d322f6c0f2268ac2db7a0db.gif'
 ---
 
 *I liked Twitter.* News, politics, artists, memes, controversial thoughts that people discuss longer than it deserves.
