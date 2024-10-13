@@ -5,6 +5,9 @@ layout: default
 <div class="posts">
     {% for post in site.posts %}
       <a class="post-block" href="{{ post.url }}">
+        {% if post.featured %}
+          <span>&#10033;</span>
+        {% endif %}
         <span class="post-title">{{ post.title }}</span>
         <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
       </a>
