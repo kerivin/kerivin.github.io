@@ -240,6 +240,33 @@ img {
   flex-direction: column;
 }
 
+.mastodon {
+  &::after {
+    content: url('./icons/mastodon.svg');
+    display: block;
+    height: 1.5em;
+    width: 1.5em;
+  }
+}
+
+.bluesky {
+  &::after {
+    content: url('./icons/bluesky.svg');
+    display: block;
+    height: 1.5em;
+    width: 1.5em;
+  }
+}
+
+.nostr {
+  &::after {
+    content: url('./icons/nostr.svg');
+    display: block;
+    height: 1.5em;
+    width: 1.5em;
+  }
+}
+
 //
 // .main
 //
