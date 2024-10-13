@@ -260,7 +260,7 @@ img {
   justify-content: space-around;
 
   .post-image {
-    visibility: hidden;
+    display: none;
     filter: sepia(100%) hue-rotate(325deg) saturate(300%);
     -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
     -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
@@ -272,7 +272,7 @@ img {
       text-decoration: none;
 
       .post-image {
-        visibility: visible;
+        display: block;
       }
    }
 }
