@@ -249,6 +249,7 @@ img {
   font-family: $postBlockTitleFont;
   display: flex;
   justify-content: space-around;
+  
   .wrapper-post-image {
     position: relative;
     width: 100%;
@@ -258,9 +259,11 @@ img {
   }
 
   .post-image {
-    position: absolute;
     display: none;
+    position: absolute;
     z-index: 50;
+    border: $lineThickness dotted $lineColor;
+    
     filter: sepia(100%) hue-rotate(325deg) saturate(300%);
     -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
     -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
@@ -276,12 +279,12 @@ img {
     .post-image {
       display: block;
     }
-  }
 
-  @include mobile {
-    .post-image {
-      display: none;
-    }    
+    @include mobile {
+      .post-image {
+        display: none;
+      }    
+    }
   }
 }
 
