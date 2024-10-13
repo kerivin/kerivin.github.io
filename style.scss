@@ -249,6 +249,10 @@ img {
   display: flex;
   justify-content: space-around;
 
+  .wrapper-post-image {
+    position: relative;
+  }
+  
   .post-image {
     display: none;
     position: absolute;
