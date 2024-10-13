@@ -258,6 +258,12 @@ img {
   font-family: $postBlockTitleFont;
   display: flex;
   justify-content: space-around;
+
+  &:hover, &:active {
+    color: $postBlockBgColor;
+    background: $postBlockTextColor;
+    text-decoration: none;
+  }
 }
 
 .post-title {
@@ -283,16 +289,10 @@ img {
     -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
   }
 
-  .post-block {
-    &:hover, &:active {
-      color: $postBlockBgColor;
-      background: $postBlockTextColor;
-      text-decoration: none;
-  
-      .post-image {
-        display: block;
-        position: absolute;
-      }
+  &:hover {
+    .post-image {
+      display: block;
+      position: absolute;
     }
   }
 }
