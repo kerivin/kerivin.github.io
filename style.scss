@@ -38,7 +38,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $headerFont;
   color: inherit;
-  font-weight: bold;
+  font-weight: 900;
   //line-height: 1.7;
 
   @include mobile {
@@ -238,11 +238,7 @@ img {
 .post-title {
   font-weight: normal;
   font-style: normal;
-  margin-left: 10%;
-
-  @include mobile {
-    margin-left: 0;
-  }
+  float: right;
 }
 
 .post-date {
