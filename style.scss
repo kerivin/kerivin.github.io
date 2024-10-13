@@ -232,14 +232,12 @@ img {
   color: $postBlockTextColor;
   background: $postBlockBgColor;
   font-family: $postBlockTitleFont;
-  display: grid;
-  grid: auto-flow dense / 40px 40px;
+  justify-content: space-evenly;
 }
 
 .post-title {
   font-weight: normal;
   font-style: normal;
-  //grid-column: 1 / 2;
 }
 
 .post-date {
