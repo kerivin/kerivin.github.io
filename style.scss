@@ -283,13 +283,15 @@ img {
     -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
   }
 
-  &:hover, &:active {
-    color: $postBlockBgColor;
-    background: $postBlockTextColor;
-    text-decoration: none;
-
-    .post-image {
-      display: block;
+  a {
+    &:hover, &:active {
+      color: $postBlockBgColor;
+      background: $postBlockTextColor;
+      text-decoration: none;
+  
+      .post-image {
+        display: block;
+      }
     }
   }
 }
