@@ -270,6 +270,12 @@ img {
   font-style: italic;
 }
 
+.post-image {
+  filter: sepia(100%) hue-rotate(338deg) saturate(1000%) contrast(150%);
+  -webkit-filter: sepia(100%) hue-rotate(338deg) saturate(1000%) contrast(150%);
+  -moz-filter: sepia(100%) hue-rotate(338deg) saturate(1000%) contrast(150%);
+}
+
 .posts {
   a {
     text-decoration: none;
