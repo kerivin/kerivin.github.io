@@ -232,6 +232,7 @@ img {
   color: $postBlockTextColor;
   background: $postBlockBgColor;
   font-family: $postBlockTitleFont;
+  display: flex;
   justify-content: space-evenly;
 }
 
