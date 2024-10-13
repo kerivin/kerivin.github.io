@@ -235,20 +235,7 @@ img {
 // .main
 //
 
-.post-block {
-  width: 100vw;
-  margin: 0px;
-  border-bottom: $lineThickness solid $lineColor;
-  text-decoration: none;
-  font-size: 18px;
-  flex-wrap: wrap;
-  flex-direction: row;
-  color: $postBlockTextColor;
-  background: $postBlockBgColor;
-  font-family: $postBlockTitleFont;
-  display: flex;
-  justify-content: space-around;
-
+.post-block-area {
   .wrapper-post-image {
     position: relative;
     width: 100%;
@@ -265,12 +252,6 @@ img {
     -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
     -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
   }
-  
-  &:hover, &:active {
-    color: $postBlockBgColor;
-    background: $postBlockTextColor;
-    text-decoration: none;
-  }
 
   &:hover {
     .post-image {
@@ -282,6 +263,27 @@ img {
     .post-image {
       display: none;
     }    
+  }
+}
+
+.post-block {
+  width: 100vw;
+  margin: 0px;
+  border-bottom: $lineThickness solid $lineColor;
+  text-decoration: none;
+  font-size: 18px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: $postBlockTextColor;
+  background: $postBlockBgColor;
+  font-family: $postBlockTitleFont;
+  display: flex;
+  justify-content: space-around;
+  
+  &:hover, &:active {
+    color: $postBlockBgColor;
+    background: $postBlockTextColor;
+    text-decoration: none;
   }
 }
 
