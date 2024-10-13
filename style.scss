@@ -159,7 +159,7 @@ img {
   border-bottom: $lineThickness solid $lineColor;
   background: $headerBgColor;
   display: block;
-  max-height: $headerHeight;
+  height: $headerHeight;
 
   @include mobile {
     text-align: center;
