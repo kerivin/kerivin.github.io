@@ -252,9 +252,6 @@ img {
 }
 
 .posts {
-  min-height: 100% - $headerHeight;
-  background: $postBlockBgColor;
-  
   a {
     text-decoration: none;
     &:hover, &:active {
