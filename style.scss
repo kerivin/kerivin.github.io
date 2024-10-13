@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
   //line-height: 1.7;
 
   @include mobile {
-    line-height: 1.4;
+    line-height: 1.2;
   }
 }
 
@@ -204,16 +204,6 @@ img {
   }
 }
 
-.site-description {
-  display: inline-block;
-  margin: 20px;
-  font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
-}
-
 .social-links {
   display: flex;
   gap: calc(10px + 5%);
@@ -246,7 +236,7 @@ img {
 //
 
 .post-block {
-  height: 20px;
+  height: $postTitleHeight;
   width: 100vw;
   margin: 0px;
   border-bottom: $lineThickness solid $lineColor;
@@ -264,7 +254,7 @@ img {
     display: none;
     position: absolute;
     z-index: 50;
-    tranform: translate(0px, -20px);
+    tranform: translate(calc(50vw - 50%), $postTitleHeight);
     filter: sepia(100%) hue-rotate(325deg) saturate(300%);
     -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
     -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
@@ -276,9 +266,11 @@ img {
     text-decoration: none;
   }
 
-  &:hover {
-    .post-image {
-      display: block;
+  @media screen {
+    &:hover {
+      .post-image {
+        display: block;
+      }
     }
   }
 }
