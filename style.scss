@@ -40,6 +40,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $headerFont;
   color: inherit;
   font-weight: 900;
+  padding-bottom: 20px;
+  padding-top: 20px;
   //line-height: 1.7;
 
   @include mobile {
@@ -297,7 +299,7 @@ img {
 
 .post {
   color: $textColor;
-  width: 40%;
+  max-width: 750px;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
