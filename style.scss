@@ -254,7 +254,7 @@ img {
     display: none;
     position: absolute;
     z-index: 50;
-    tranform: translate(calc(50vw - 50%), $postTitleHeight);
+    transform: translate(calc(50vw - 50%), $postTitleHeight);
     filter: sepia(100%) hue-rotate(325deg) saturate(300%);
     -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
     -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
