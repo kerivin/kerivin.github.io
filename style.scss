@@ -261,7 +261,8 @@ img {
 }
 
 .posts {
-  min-height: 100vh;
+  min-height: 100vh - $headerHeight;
+  background: $postBlockBgColor;
   
   a {
     text-decoration: none;
