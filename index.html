@@ -8,8 +8,8 @@ layout: default
       <li>
         <a class="post-block" href="{{ post.url }}">
           {% if post.image %}
-            <div class="wrapper-post-image">
-              <img class="post-image" src="{{ post.image }}" alt="{{ post.title }}">
+            <div class="wrapper-post-image" id="post-image">
+              <img src="{{ post.image }}" alt="{{ post.title }}">
             </div>
           {% endif %}
           {% if post.featured %}
