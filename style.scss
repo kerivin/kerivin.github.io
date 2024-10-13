@@ -159,6 +159,8 @@ img {
   border-bottom: $lineThickness solid $lineColor;
   background: $headerBgColor;
   height: $headerHeight;
+  align-items: center;
+  align-content: center;
 
   @include mobile {
     text-align: center;
@@ -179,7 +181,6 @@ img {
 .site-name {
   margin: 0;
   padding-left: 20px;
-  padding-top: 10px;
   color: $siteTitleColor;
   cursor: pointer;
   font-family: $siteTitleFont;
