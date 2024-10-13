@@ -56,7 +56,8 @@ $headerFont: $sligoil;
 $textFont: $sligoil;
 
 // Other templates
-$headerHeight: 15%;
+$headerHeight: 15px;
+&lineThickness: 4px;
 
 // Mobile breakpoints
 @mixin mobile {
