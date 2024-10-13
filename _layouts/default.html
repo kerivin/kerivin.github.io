@@ -26,9 +26,19 @@
             <!--p class="site-description">{{ site.description }}</p-->
           </div>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+          <nav class="social-links">
+            <div class="social-link">
+              <a href="https://mastodon.social/@kerivin">Mastodon</a>
+              <span onclick="copy()">@kerivin@mastodon.social</span>
+            </div>
+            <div class="social-link">
+              <a href="https://bsky.app/profile/kerivin.bsky.social">Bluesky</a>
+              <span onclick="copy()">@kerivin.bsky.social</span>
+            </div>
+            <div class="social-link">
+              <a href="https://njump.me/npub19mq9swna4dkhlm3jaux4yhgv5kjj556lkfhv3qnjtyh0kcljph6s88e295">Nostr</a>
+              <span onclick="copy()">kerivin@nsec.app</span>
+            </div>
           </nav>
         </header>
       </div>
