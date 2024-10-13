@@ -311,10 +311,13 @@ img {
   
   blockquote {
     margin: 1.8em .8em;
-    margin-bottom: 0px;
     border-left: 4px solid $bgColor;
     padding: 0.1em 1em;
     background: $elemColor;
+
+    p {
+      margin-bottom: 0px;
+    }
   }
 
   a {
