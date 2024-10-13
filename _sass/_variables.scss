@@ -55,6 +55,9 @@ $postBlockDateFont: $deutschGothic;
 $headerFont: $sligoil;
 $textFont: $sligoil;
 
+// Other templates
+$headerHeight: 15px;
+
 // Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {
