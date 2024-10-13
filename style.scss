@@ -219,10 +219,10 @@ img {
   padding: 10px;
   justify-content: end;
   color: $lineColor;
-  text-decoration: none;
   font-weight: bold;
 
   a {
+    text-decoration: none;
     background: $elemColor;
     &:hover, &:active {
       text-decoration: underline;
@@ -311,6 +311,7 @@ img {
   
   blockquote {
     margin: 1.8em .8em;
+    margin-bottom: 0px;
     border-left: 4px solid $bgColor;
     padding: 0.1em 1em;
     background: $elemColor;
