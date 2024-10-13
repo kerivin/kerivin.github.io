@@ -160,6 +160,7 @@ img {
   background: $headerBgColor;
   display: block;
   height: $headerHeight;
+  align-items: center;
 
   @include mobile {
     text-align: center;
@@ -216,6 +217,7 @@ img {
   display: flex;
   justify-content: space-around;
   color: $headerTextColor;
+  float: right;
 }
 
 .social-link {
@@ -237,7 +239,6 @@ img {
 .post-block {
   width: 100vw;
   margin: 0px;
-  //padding: 2px;
   border-bottom: $lineThickness solid $lineColor;
   text-decoration: none;
   font-size: 18px;
