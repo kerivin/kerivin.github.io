@@ -233,22 +233,17 @@ img {
   color: $postBlockTextColor;
   background: $postBlockBgColor;
   font-family: $postBlockTitleFont;
+  gap: calc(20px + 10%);
 }
 
 .post-title {
   font-weight: normal;
   font-style: normal;
-  float: right;
 }
 
 .post-date {
   font-weight: 100;
   font-style: italic;
-  margin-right: 10%;
-
-  @include mobile {
-    margin-right: 0;
-  }
 }
 
 .posts {
