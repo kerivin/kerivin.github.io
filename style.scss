@@ -158,7 +158,7 @@ img {
 .masthead {
   border-bottom: $lineThickness solid $lineColor;
   background: $headerBgColor;
-  display: block;
+  display: flex;
   height: $headerHeight;
   align-items: center;
   align-content: center;
@@ -232,7 +232,7 @@ img {
 
 .social-link {
   font-family: $textFont;
-  border-radius: 25px;
+  border-radius: 40px;
   border: $lineThickness solid $siteTitleColor;
   padding: 5px;
   margin-left: 10px;
