@@ -234,7 +234,7 @@ img {
   background: $postBlockBgColor;
   font-family: $postBlockTitleFont;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .post-title {
