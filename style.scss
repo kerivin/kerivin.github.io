@@ -259,13 +259,6 @@ img {
   display: flex;
   justify-content: space-around;
 
-  .post-image {
-    display: none;
-    filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-    -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-    -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-  }
-
   &:hover {
       color: $postBlockBgColor;
       background: $postBlockTextColor;
@@ -291,6 +284,13 @@ img {
   ul, ol {
     margin: 0px;
     padding: 0px;
+  }
+
+  .post-image {
+    display: none;
+    filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+    -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+    -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
   }
 }
 
