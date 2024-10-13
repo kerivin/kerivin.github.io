@@ -158,10 +158,7 @@ img {
 .masthead {
   border-bottom: $lineThickness solid $lineColor;
   background: $headerBgColor;
-  display: flex;
   height: $headerHeight;
-  align-items: center;
-  align-content: center;
 
   @include mobile {
     text-align: center;
