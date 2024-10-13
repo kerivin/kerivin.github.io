@@ -259,15 +259,17 @@ img {
   display: flex;
   justify-content: space-around;
 
-  .post-image {
-    display: none;
-    position: absolute;
-    top: -1px;
-    overflow: visible;
-    z-index: 50;
-    filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-    -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-    -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+  .image-wrapper {
+    position: relative;
+
+    .post-image {
+      display: none;
+      position: absolute;
+      z-index: 50;
+      filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+      -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+      -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+    }
   }
   
   &:hover, &:active {
@@ -277,7 +279,7 @@ img {
   }
 
   &:hover {
-    .post-image {
+    .image-wrapper.post-image {
       display: block;
     }
   }
