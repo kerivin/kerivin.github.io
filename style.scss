@@ -283,7 +283,7 @@ img {
     -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
   }
 
-  a {
+  .post-block {
     &:hover, &:active {
       color: $postBlockBgColor;
       background: $postBlockTextColor;
@@ -291,6 +291,7 @@ img {
   
       .post-image {
         display: block;
+        position: absolute;
       }
     }
   }
