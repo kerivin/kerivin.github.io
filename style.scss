@@ -249,30 +249,27 @@ img {
   display: flex;
   justify-content: space-around;
 
-  .post-image {
-    position: absolute;
-    z-index: 50;
-    filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-    -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-    -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-  }
-  
   &:hover, &:active {
     color: $postBlockBgColor;
     background: $postBlockTextColor;
     text-decoration: none;
   }
-
-  &:hover {
-    .post-image {
-      display: block;
-    }
-  }
   
-  @include mobile {
-    .post-image {
-      display: none;
-    }    
+  .wrapper-post-image {
+    display: none;
+  }
+
+  &:hover ~ #post-image {
+    //position: absolute;
+    z-index: 50;
+    filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+    -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+    -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+
+    display: block;
+    @include mobile {
+      display: none; 
+    }
   }
 }
 
