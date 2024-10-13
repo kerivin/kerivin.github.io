@@ -161,6 +161,7 @@ img {
   display: block;
   height: $headerHeight;
   align-items: center;
+  align-content: center;
 
   @include mobile {
     text-align: center;
