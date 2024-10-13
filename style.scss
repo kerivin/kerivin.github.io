@@ -249,14 +249,7 @@ img {
   display: flex;
   justify-content: space-around;
 
-  .wrapper-post-image {
-    display: none;
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .wrapper-post-image img {
+  .post-image {
     position: absolute;
     z-index: 50;
     filter: sepia(100%) hue-rotate(325deg) saturate(300%);
@@ -271,13 +264,13 @@ img {
   }
 
   &:hover {
-    .wrapper-post-image {
+    .post-image {
       display: block;
     }
   }
   
   @include mobile {
-    .wrapper-post-image {
+    .post-image {
       display: none;
     }    
   }
