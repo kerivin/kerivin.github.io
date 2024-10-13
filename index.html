@@ -12,11 +12,11 @@ layout: default
           {% endif %}
           <span class="post-title">{{ post.title }}</span>
           <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
-          {% if post.image %}
-            <img class="post-image" src="{{ post.image }}" alt="{{ post.title }}">
-          {% endif %}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
+        </a>
+        {% if post.image %}
+          <img class="post-image" src="{{ post.image }}" alt="{{ post.title }}">
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
 </div>
