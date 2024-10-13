@@ -261,7 +261,7 @@ img {
 
   .post-image {
     display: none;
-    position: sticky;
+    position: absolute;
     top: -1px;
     overflow: visible;
     z-index: 50;
