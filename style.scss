@@ -40,8 +40,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $headerFont;
   color: inherit;
   font-weight: 900;
-  padding-bottom: 20px;
-  padding-top: 20px;
   //line-height: 1.7;
 
   @include mobile {
@@ -305,6 +303,7 @@ img {
   margin-right: auto;
   font-weight: 200;
   text-indent: 20px;
+  line-height: 120%;
 
   blockquote {
     margin: 1.8em .8em;
@@ -321,6 +320,11 @@ img {
    }
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  
    h1 {
     margin-left: auto;
     margin-right: auto;
