@@ -355,14 +355,11 @@ img {
 .wrapper-footer {
   margin-top: 50px;
   border-top: $lineThickness solid $black;
-  //border-bottom: $lineThickness solid $black;
   background-color: $lemonYellow;
 }
 
 footer {
   margin-top: auto;
-  // padding: 20px 0;
-  // text-align: center;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
