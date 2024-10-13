@@ -214,15 +214,15 @@ img {
 .social-links {
   display: flex;
   justify-content: space-evenly;
-  color: $siteTitleColor;
+  color: $lineColor;
   float: right;
   text-align: end;
 
   a {
     &:hover, &:active {
-      color: $lineColor;
-      background: $siteTitleColor;
-      text-decoration: none;
+      color: $siteTitleColor;
+      background: none;
+      text-decoration: underline dotted;
    }
   }
 }
