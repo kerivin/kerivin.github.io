@@ -235,10 +235,10 @@ img {
   flex-direction: row;
   color: $postBlockTextColor;
   background: $postBlockBgColor;
+  font-family: $postBlockTitleFont;
 }
 
 .post-title {
-  font-family: $postBlockTitleFont;
   font-weight: normal;
   font-style: normal;
   margin-left: 10%;
@@ -249,14 +249,18 @@ img {
 }
 
 .post-date {
-  font-family: $postBlockDateFont;
   font-weight: 100;
   font-style: italic;
   float: right;
+  margin-right: 10%;
+
+  @include mobile {
+    margin-right: 0;
+  }
 }
 
 .posts {
-  min-height: 100vh - $headerHeight;
+  min-height: 100% - $headerHeight;
   background: $postBlockBgColor;
   
   a {
