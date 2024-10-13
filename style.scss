@@ -212,7 +212,12 @@ img {
   }
 }
 
-.social {
+.social-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-link {
   font-family: $textFont;
   border-radius: 25px;
   border: &lineThickness solid $lineColor;
