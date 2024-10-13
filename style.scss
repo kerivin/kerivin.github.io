@@ -215,16 +215,24 @@ img {
 
 .social-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   color: $siteTitleColor;
   float: right;
+  text-align: end;
+
+  a {
+    &:hover, &:active {
+      color: $lineColor;
+      background: $siteTitleColor;
+      text-decoration: none;
+   }
 }
 
 .social-link {
   font-family: $textFont;
   //border-radius: 5px;
   //border: &lineThickness solid $lineColor;
-  outline: &lineThickness solid $lineColor;
+  outline: 5px dotted green;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -294,6 +302,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   font-weight: 200;
+  text-indent: 20px;
 
   blockquote {
     margin: 1.8em .8em;
