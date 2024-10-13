@@ -258,16 +258,6 @@ img {
   font-family: $postBlockTitleFont;
   display: flex;
   justify-content: space-around;
-
-  &:hover {
-      color: $postBlockBgColor;
-      background: $postBlockTextColor;
-      text-decoration: none;
-
-      .post-image {
-        display: block;
-      }
-   }
 }
 
 .post-title {
@@ -291,6 +281,16 @@ img {
     filter: sepia(100%) hue-rotate(325deg) saturate(300%);
     -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
     -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+  }
+
+  &:hover, &:active: {
+    color: $postBlockBgColor;
+    background: $postBlockTextColor;
+    text-decoration: none;
+
+    .post-image {
+      display: block;
+    }
   }
 }
 
