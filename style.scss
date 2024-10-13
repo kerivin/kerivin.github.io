@@ -261,6 +261,8 @@ img {
 
   .post-image {
     display: none;
+    overflow: visible;
+    z-index: 50;
     filter: sepia(100%) hue-rotate(325deg) saturate(300%);
     -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
     -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
@@ -275,8 +277,6 @@ img {
   &:hover {
     .post-image {
       display: block;
-      position: absolute;
-      overflow: visible;
     }
   }
 }
