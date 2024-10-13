@@ -215,9 +215,9 @@ img {
 .social-links {
   display: flex;
   gap: calc(20px + 10%);
-  //justify-content: space-evenly;
+  padding: 5px;
+  justify-content: end;
   color: $lineColor;
-  float: right;
   text-decoration: underline dotted;
 
   a {
