@@ -233,7 +233,7 @@ img {
 .social-link {
   font-family: $textFont;
   border-radius: 5px;
-  border: &lineThickness solid $lineColor;
+  border: $lineThickness solid $lineColor;
   padding: 5px;
   display: flex;
   flex-direction: column;
