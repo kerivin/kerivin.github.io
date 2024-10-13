@@ -249,8 +249,13 @@ img {
   display: flex;
   justify-content: space-around;
 
+  .wrapper-post-image {
+    position: relative;
+  }
+  
   .post-image {
     position: absolute;
+    display: block;
     z-index: 50;
     filter: sepia(100%) hue-rotate(325deg) saturate(300%);
     -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
