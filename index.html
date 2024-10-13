@@ -10,6 +10,7 @@ layout: default
         {% endif %}
         <span class="post-title">{{ post.title }}</span>
         <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+        <img src="{{ post.image}}" alt="{{ post.title }}">
       </a>
     {% endfor %}
 </div>
