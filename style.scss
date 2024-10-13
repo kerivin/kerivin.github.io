@@ -246,6 +246,7 @@ img {
 //
 
 .post-block {
+  height: 20px;
   width: 100vw;
   margin: 0px;
   border-bottom: $lineThickness solid $lineColor;
@@ -259,17 +260,14 @@ img {
   display: flex;
   justify-content: space-around;
 
-  .image-wrapper {
-    position: relative;
-
-    .post-image {
-      display: none;
-      position: absolute;
-      z-index: 50;
-      filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-      -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-      -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-    }
+  .post-image {
+    display: none;
+    position: absolute;
+    z-index: 50;
+    tranform: translate(0px, -20px);
+    filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+    -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+    -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
   }
   
   &:hover, &:active {
@@ -279,7 +277,7 @@ img {
   }
 
   &:hover {
-    .image-wrapper.post-image {
+    .post-image {
       display: block;
     }
   }
