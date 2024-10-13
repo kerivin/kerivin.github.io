@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background: $beige;
+  background: $postBgColor;
   font: 18px/1.4 $textFont;
   color: $darkGray;
   font-weight: 150;
@@ -156,7 +156,7 @@ img {
 }
 
 .masthead {
-  border-bottom: &lineThickness solid $lineColor;
+  border-bottom: $lineThickness solid $lineColor;
   background: $headerBgColor;
   display: block;
   max-height: $headerHeight;
@@ -225,7 +225,7 @@ img {
   width: 100vw;
   margin: 0px;
   //padding: 2px;
-  border-bottom: &lineThickness solid $lineColor;
+  border-bottom: $lineThickness solid $lineColor;
   text-decoration: none;
   font-size: 18px;
   flex-wrap: wrap;
@@ -309,8 +309,8 @@ img {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: &lineThickness solid $black;
-  //border-bottom: &lineThickness solid $black;
+  border-top: $lineThickness solid $black;
+  //border-bottom: $lineThickness solid $black;
   background-color: $lemonYellow;
 }
 
