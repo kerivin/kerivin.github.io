@@ -219,11 +219,11 @@ img {
   padding: 10px;
   justify-content: end;
   color: $lineColor;
-  background: $elemColor;
   text-decoration: none;
   font-weight: bold;
 
   a {
+    background: $elemColor;
     &:hover, &:active {
       text-decoration: underline;
    }
