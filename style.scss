@@ -214,57 +214,23 @@ img {
 .social-links {
   display: flex;
   justify-content: space-evenly;
-  color: $lineColor;
+  color: $siteTitleColor;
   float: right;
-  text-align: end;
 
   a {
     &:hover, &:active {
-      color: $siteTitleColor;
+      color: $lineColor;
       background: none;
-      text-decoration: underline dotted;
    }
   }
 }
 
 .social-link {
-  font-family: $textFont;
-  border-radius: 40px;
+  border-radius: 50%;
   border: $lineThickness solid $lineColor;
   padding: 5px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  display: flex;
-  flex-direction: column;
-}
-
-.mastodon {
-  &::after {
-    content: url('./icons/mastodon.svg');
-    display: block;
-    height: 1.5em;
-    width: 1.5em;
-  }
-}
-
-.bluesky {
-  &::after {
-    content: url('./icons/bluesky.svg');
-    display: block;
-    height: 1.5em;
-    width: 1.5em;
-  }
-}
-
-.nostr {
-  &::after {
-    content: url('./icons/nostr.svg');
-    display: block;
-    height: 1.5em;
-    width: 1.5em;
-  }
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 //
