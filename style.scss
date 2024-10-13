@@ -216,15 +216,16 @@ img {
 .social-links {
   display: flex;
   gap: calc(10px + 5%);
-  padding: 5px;
+  padding: 10px;
   justify-content: end;
   color: $lineColor;
-  text-decoration: underline dotted;
+  background: $elemColor;
+  text-decoration: none;
   font-weight: bold;
 
   a {
     &:hover, &:active {
-      background: $elemColor;
+      text-decoration: underline;
    }
   }
 
