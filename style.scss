@@ -227,7 +227,7 @@ img {
     background: $elemColor;
     &:hover, &:active {
       text-decoration: underline;
-   }
+    }
   }
 
   @include mobile {
@@ -283,7 +283,7 @@ img {
     -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
   }
 
-  &:hover, &:active: {
+  &:hover, &:active {
     color: $postBlockBgColor;
     background: $postBlockTextColor;
     text-decoration: none;
