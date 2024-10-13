@@ -258,6 +258,23 @@ img {
   font-family: $postBlockTitleFont;
   display: flex;
   justify-content: space-around;
+
+  .post-image {
+    visibility: hidden;
+    filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+    -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+    -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+  }
+
+  &:hover {
+      color: $postBlockBgColor;
+      background: $postBlockTextColor;
+      text-decoration: none;
+
+      .post-image {
+        visibility: visible;
+      }
+   }
 }
 
 .post-title {
@@ -270,22 +287,7 @@ img {
   font-style: italic;
 }
 
-.post-image {
-  filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-  -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-  -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-}
-
 .posts {
-  a {
-    text-decoration: none;
-    &:hover, &:active {
-      color: $postBlockBgColor;
-      background: $postBlockTextColor;
-      text-decoration: none;
-   }
-  }
-  
   ul, ol {
     margin: 0px;
     padding: 0px;
