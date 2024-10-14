@@ -278,13 +278,13 @@ img {
     background: $postBlockTextColor;
     text-decoration: none;
   }
-}
 
-.post-block:hover + .post-image {
-  display: block;
-
-  @include mobile {
-    display: none;    
+  &:hover + .post-image {
+    display: block;
+  
+    @include mobile {
+      display: none;    
+    }
   }
 }
 
