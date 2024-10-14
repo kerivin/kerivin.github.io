@@ -281,14 +281,10 @@ img {
 }
 
 .post-block:hover + .post-image {
-  .post-image {
-    display: block;
-  }
-}
+  display: block;
 
-@include mobile {
-  .post-block:hover + .post-image {
-    display: none;
+  @include mobile {
+    display: none;    
   }
 }
 
