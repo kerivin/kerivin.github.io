@@ -172,6 +172,7 @@ img {
 
 .site-info {
   float: left;
+  padding-left: 20px;
 
   @include mobile {
     float: none;
@@ -183,7 +184,6 @@ img {
 
 .site-name {
   margin: 0;
-  padding-left: 20px;
   color: $siteTitleColor;
   cursor: pointer;
   font-family: $siteTitleFont;
@@ -369,13 +369,18 @@ img {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
-  border-top: $lineThickness solid $black;
-  background-color: $lemonYellow;
+  margin-top: 30px;
 }
 
 footer {
-  margin-top: auto;
+}
+
+.site-info-footer {
+  float: right;
+
+  @include mobile {
+    float: none;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
