@@ -250,10 +250,15 @@ img {
     position: absolute;
     z-index: 50;
     border: $lineThickness dotted $lineColor;
+    border-top: 0px;
     
     filter: sepia(100%) hue-rotate(325deg) saturate(300%);
     -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
     -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+
+    &:hover {
+      display: none;
+    }
   }
 
   &:hover {
