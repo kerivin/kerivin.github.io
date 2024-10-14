@@ -1,3 +1,9 @@
+---
+layout: post
+title: Visual Design of Nostr clients
+tags: nostr visual design client clients
+image: 'https://i.pinimg.com/originals/cc/db/b7/ccdbb708a0e24b7d8c0ba17a22ab39fc.jpg'
+---
 Developers have already created [numerous Nostr clients for everything you can possibly do there](https://habla.news/u/vitorpamplona.com/1728488779653). Other clients are in development now, and some exist just as ideas in developers' minds.
 
 I want to talk about *design*. I'm not here to judge anything, I understand that many developers only build clients for functionality or experiments, and it's not like visual style is a huge problem here. This article is for developers who might be concerned about not having any idea what their client should look like, so I'm here to provide some ideas. I hope you'll find some of them useful.
