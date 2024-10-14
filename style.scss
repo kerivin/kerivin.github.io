@@ -257,17 +257,6 @@ img {
 }
 
 .post-block-area {
-  &:hover {
-    .post-image {
-      display: block;
-    }
-  }
-
-  @include mobile {
-    .post-image {
-      display: none;
-    }
-  }
 }
 
 .post-block {
@@ -288,6 +277,18 @@ img {
     color: $postBlockBgColor;
     background: $postBlockTextColor;
     text-decoration: none;
+  }
+}
+
+.post-block:hover + .post-image {
+  .post-image {
+    display: block;
+  }
+}
+
+@include mobile {
+  .post-block:hover + .post-image {
+    display: none;
   }
 }
 
