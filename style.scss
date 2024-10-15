@@ -328,9 +328,8 @@ img {
   
   blockquote {
     margin: 1.8em .8em;
-    border-left: 4px solid $bgColor;
+    border-left: 4px solid $elemColor;
     padding: 10px;
-    background: $elemColor;
 
     p:last-of-type {
         margin-bottom: 0px;
