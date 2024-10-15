@@ -334,12 +334,8 @@ img {
     padding: 0.1em 1em;
     background: $elemColor;
 
-    p {
-      margin-bottom: 0px;
-    }
-
     &:last-child {
-      margin-bottom: 30px;
+      margin-bottom: 0px;
     }
   }
 
