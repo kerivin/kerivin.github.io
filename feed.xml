@@ -15,9 +15,9 @@ layout:
     {% for post in site.posts limit:10 %}
       <item>
         {% capture assets_absolute_url %}{{ site.url }}/assets{% endcapture %}
-        {% capture post_content %}<![CDATA[{{ post.content | strip | replace: "../assets", assets_absolute_url }}]]>{% endcapture %}
+        {% capture post_content %}{{ post.content | strip | replace: "../assets", assets_absolute_url | xml_escape }}{% endcapture %}
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post_content | xml_escape }}</description>
+        <description>{{ post_content }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | absolute_url }}</link>
         <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
