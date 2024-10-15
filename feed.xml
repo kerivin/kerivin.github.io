@@ -15,7 +15,7 @@ layout:
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description><![CDATA[{{ post.content | strip }}]]></description>
+        <description type="html" xml:base="{{ site.url | absolute_url }}"><![CDATA[{{ post.content | strip }}]]></description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | absolute_url }}</link>
         <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
