@@ -14,8 +14,10 @@ layout:
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit:10 %}
       <item>
+        {% capture assets_absolute_url %}{{ site.url }}/assets{% endcapture %}
+        {% capture post_content %}<![CDATA[{{ post.content | strip | replace: "../assets", assets_absolute_url }}]]>{% endcapture %}
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
+        <description>{{ post_content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
@@ -27,8 +29,7 @@ layout:
           <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post_image | xml_escape }}" />
           <media:content medium="image" url="{{ post_image | xml_escape }}" xmlns:media="http://search.yahoo.com/mrss/" />
         {% endif %}
-        {% capture assets_absolute_url %}{{ site.url }}/assets{% endcapture %}
-        <content type="html" xml:base="{{ site.url }}assets/"><![CDATA[{{ post.content | strip | replace: "../assets", assets_absolute_url }}]]></content>
+        <content type="html">{{ post_content }}</content>
         {% for tag in post.tags %}
         <category>{{ tag | xml_escape }}</category>
         {% endfor %}
