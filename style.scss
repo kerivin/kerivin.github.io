@@ -161,7 +161,6 @@ img {
 .masthead {
   border-bottom: $lineThickness solid $lineColor;
   background: $headerBgColor;
-  height: $headerHeight;
   align-items: center;
   align-content: center;
 
@@ -200,6 +199,11 @@ img {
   h1 {
     font-size: 48px;
   }
+}
+
+.site-description {
+  color: $siteTitleColor;
+  font-size: 40px;
 }
 
 .social-links {
