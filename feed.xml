@@ -19,8 +19,8 @@ layout:
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post_content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <link>{{ post.url | absolute_url }}</link>
+        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
         {% if post.image %}
           {% assign post_image = post.image %}
           {% unless post_image contains "://" %}
