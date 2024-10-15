@@ -335,7 +335,9 @@ img {
     background: $elemColor;
 
     &:last-child {
-      margin-bottom: 0px;
+      p {
+        margin-bottom: 0px;
+      }
     }
   }
 
