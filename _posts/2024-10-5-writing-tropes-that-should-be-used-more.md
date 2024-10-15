@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Writing tropes that should be used more
-tags: writing tropes books storytelling cliche prompts
+title: Character relationship tropes that should be used more
+tags: writing tropes books storytelling cliche prompts relationship dynamics characters
 image: 'https://i.pinimg.com/control/564x/31/37/f8/3137f858b751b6a8e3cdccfc606e3ed4.jpg'
 ---
 This is a list of tropes I wish I saw more in books and movies. It's pretty random.
