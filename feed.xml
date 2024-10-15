@@ -14,8 +14,6 @@ layout:
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit:10 %}
       <item>
-        {% capture assets_absolute_url %}{{ "./assets" | absolute_url }}{% endcapture %}
-        {% capture post_content %}{{ post.content | strip | replace: "../assets", assets_absolute_url | xml_escape }}{% endcapture %}
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post_content }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
