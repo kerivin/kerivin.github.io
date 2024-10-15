@@ -316,13 +316,11 @@ img {
 
 .post {
   color: $textColor;
-  max-width: 750px;
-  margin-top: 30px;
+  max-width: min(90%, 750px);
   margin-left: auto;
   margin-right: auto;
   font-weight: 200;
-  text-indent: 20px;
-  line-height: 120%;
+  font-size: 16px;
 
   p {
     margin-bottom: 30px;
@@ -359,8 +357,16 @@ img {
     width: 70%;
    }
 
+  img {
+    max-width: min(500px, 100vw);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
   @include mobile {
-    width: 90%;
+    width: 90vw;
+    font-size: inherit;
   }
 }
 
