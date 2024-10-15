@@ -11,7 +11,7 @@ layout: default
              <span>&#10033;</span>
           {% endif %}
           <span class="post-title">{{ post.title }}</span>
-          <span>{{ page.content | read_time }}</span>
+          <span>{{ post.content | read_time }}</span>
           <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
         </a>
         {% if post.image %}
