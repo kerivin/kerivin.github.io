@@ -18,7 +18,7 @@ layout:
         {% capture assets_absolute_url %}{{ site.url }}/assets{% endcapture %}
         {% capture post_content %}{{ post.content | strip | replace: "/assets", assets_absolute_url }}{% endcapture %}
         <description xml:base="{{ site.url | absolute_url }}"><![CDATA[{{ post_content }}]]></description>
-        <content:encoded type="html" xml:base="{{ site.url | absolute_url }}"><![CDATA[{{ post_content }}]]></content:encoded>
+        <content type="html" xml:base="{{ site.url | absolute_url }}"><![CDATA[{{ post_content }}]]></content>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | absolute_url }}</link>
         <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
