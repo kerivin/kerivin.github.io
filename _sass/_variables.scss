@@ -22,16 +22,16 @@ $lightGray: #eee;
 $white: #fff;
 
 // Color templates
-$bgColor: $lightGray;
-$elemColor: $red;
-$postBgColor: $lightGray;
+$bgColor: $lightGreen;
+$elemColor: $black;
+$postBgColor: $bgColor;
 
-$headerBgColor: $gray;
+$headerBgColor: none;
 $siteTitleColor: $elemColor;
-$lineColor: $darkerGray;
+$lineColor: $elemColor;
 $postBlockBgColor: $bgColor;
 $postBlockTextColor: $elemColor;
-$textColor: $darkerGray;
+$textColor: $elemColor;
 
 // Font stacks
 $harrowgate: "Harrowgate";
