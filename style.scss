@@ -205,7 +205,9 @@ blockquote {
 // .main
 //
 
-.post-block-area {
+.post-block {
+  margin-bottom: 30px;
+  
   .wrapper-post-image {
     position: relative;
     width: 100%;
@@ -238,17 +240,14 @@ blockquote {
   }
 }
 
-.post-block {
-  margin-bottom: 30px;
+.post-link {
   text-decoration: none;
   display: grid;
 
-  a {
-    &:hover {
-      background: $bgColor;
-      color: $textColor;
-      text-decoration: underline dotted;
-    }
+  &:hover {
+    background: $bgColor;
+    color: $textColor;
+    text-decoration: underline dotted;
   }
 }
 
