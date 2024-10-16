@@ -162,7 +162,7 @@ blockquote {
 
 .masthead {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: $postLinkGap;
   display: block;
 }
 
@@ -206,7 +206,7 @@ blockquote {
 //
 
 .post-block {
-  margin-bottom: 30px;
+  margin-bottom: $postLinkGap;
 
   a {
     background: transparent;
