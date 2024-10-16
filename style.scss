@@ -113,6 +113,16 @@ img {
   width: 100%;
 }
 
+blockquote {
+  margin: 1.8em .8em;
+  border-left: 4px solid $elemColor;
+  padding: 10px;
+
+  p:last-of-type {
+      margin-bottom: 0px;
+  }
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -184,7 +194,6 @@ img {
   flex-direction: row;
   gap: calc(10px + 5%);
   padding: 10px;
-  font-weight: bold;
   justify-content: flex-end;
 
   @include mobile {
@@ -233,6 +242,11 @@ img {
   margin-bottom: 30px;
   text-decoration: none;
   display: grid;
+
+  a {
+    background: $bgColor;
+    color: $textColor;
+  }
 }
 
 .posts {
@@ -258,16 +272,6 @@ img {
 
   p {
     margin-bottom: 30px;
-  }
-  
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 4px solid $elemColor;
-    padding: 10px;
-
-    p:last-of-type {
-        margin-bottom: 0px;
-    }
   }
 
   h1, h2, h3, h4, h5, h6 {
