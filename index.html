@@ -11,9 +11,9 @@ layout: default
           {% if post.featured %}
              {% assign featured_sign="&#91;&#10033;&#93;&#32;" %}
           {% endif %}
-          <span class="post-title">{{ featured_sign }}{{ post.title }}</span>
+          <span>{{ featured_sign }}{{ post.title }}</span>
           {% include read-time.html %}
-          <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+          <span>{{ post.date | date: "%d/%m/%Y" }}</span>
         </a>
         {% if post.image %}
           <div class="wrapper-post-image">
