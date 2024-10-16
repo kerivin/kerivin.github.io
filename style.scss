@@ -244,8 +244,11 @@ blockquote {
   display: grid;
 
   a {
-    background: $bgColor;
-    color: $textColor;
+    &:hover {
+      background: $bgColor;
+      color: $textColor;
+      text-decoration: underline dotted;
+    }
   }
 }
 
