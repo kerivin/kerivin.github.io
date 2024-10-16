@@ -242,6 +242,7 @@ blockquote {
 
 .post-link {
   display: grid;
+  text-decoration: none;
   
   &:hover {
     text-decoration: underline dotted;
@@ -251,6 +252,7 @@ blockquote {
 .post-link-text {
   background: $bgColor;
   color: $textColor;
+  text-decoration: inherit;
 }
 
 .posts {
