@@ -33,6 +33,8 @@ $postBlockBgColor: $bgColor;
 $postBlockTextColor: $elemColor;
 $textColor: $elemColor;
 
+$imageFilter: grayscale(100%) sepia(100%) hue-rotate(50deg);
+
 // Font stacks
 $harrowgate: "Harrowgate";
 $robert: "Robert";
