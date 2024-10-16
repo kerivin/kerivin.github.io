@@ -56,6 +56,7 @@ $textFont: $sligoil;
 
 // Other templates
 $lineThickness: 2px;
+$maxWidth: min(90%, 750px);
 
 // Mobile breakpoints
 @mixin mobile {
