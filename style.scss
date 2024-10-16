@@ -241,13 +241,16 @@ blockquote {
 }
 
 .post-link {
-  text-decoration: none;
   display: grid;
-
-  &:hover {
+  
+  a {
     background: $bgColor;
     color: $textColor;
-    text-decoration: underline dotted;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline dotted;
+    }
   }
 }
 
