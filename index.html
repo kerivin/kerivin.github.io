@@ -5,8 +5,8 @@ layout: default
 <div class="posts">
   <ul>
     {% for post in site.posts %}
-      <li class="post-block-area">
-        <a class="post-block" href="{{ post.url }}">
+      <li class="post-block">
+        <a class="post-link" href="{{ post.url }}">
           {% assign featured_sign="" %}
           {% if post.featured %}
              {% assign featured_sign="&#91;&#10033;&#93;&#32;" %}
