@@ -57,6 +57,7 @@ $textFont: $sligoil;
 // Other templates
 $lineThickness: 2px;
 $maxWidth: min(90vw, 750px);
+$postLinkGap: 50px;
 
 // Mobile breakpoints
 @mixin mobile {
