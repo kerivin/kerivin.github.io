@@ -1,6 +1,0 @@
-{% assign read_time = post.content | number_of_words | divided_by: 200 %}
-{% if read_time > 0 %}
-  <span>{{ read_time }} min</span>
-{% else %}
-  <span>&lt;1 min</span>
-{% endif %}
