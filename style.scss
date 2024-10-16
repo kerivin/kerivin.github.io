@@ -213,9 +213,9 @@ img {
     border-top: 0px;
     pointer-events: none;
     
-    filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-    -webkit-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
-    -moz-filter: sepia(100%) hue-rotate(325deg) saturate(300%);
+    filter: $imageFilter;
+    -webkit-filter: $imageFilter;
+    -moz-filter: $imageFilter;
   }
 
   &:hover {
