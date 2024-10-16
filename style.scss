@@ -207,6 +207,14 @@ blockquote {
 
 .post-block {
   margin-bottom: 30px;
+
+  a {
+    background: transparent;
+    
+    &:hover {
+      background: transparent;
+    }
+  }
   
   .wrapper-post-image {
     position: relative;
@@ -219,9 +227,7 @@ blockquote {
   .post-image {
     display: none;
     position: absolute;
-    z-index: 50;
-    border: $lineThickness dotted $lineColor;
-    border-top: 0px;
+    z-index: -50;
     pointer-events: none;
     
     filter: $imageFilter;
@@ -241,7 +247,9 @@ blockquote {
 }
 
 .post-link {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   text-decoration: none;
   
   &:hover {
