@@ -22,8 +22,8 @@ $lightGray: #eee;
 $white: #fff;
 
 // Color templates
-$bgColor: $lightGreen;
-$elemColor: $black;
+$bgColor: light-dark($lightGreen, $black);
+$elemColor: light-dark($black, $light Green);
 $postBgColor: $bgColor;
 
 $headerBgColor: none;
@@ -38,9 +38,6 @@ $imageFilter: grayscale(100%);
 $logoFilter: none;
 
 @media (prefers-color-scheme: dark) {
-  $bgColor: $black;
-  $elemColor: $lightGreen;
-  $postBgColor: $black;
   $logoFilter: invert(54%) sepia(86%) saturate(239%) hue-rotate(27deg) brightness(85%) contrast(89%);
 }
 
