@@ -35,6 +35,7 @@ $textColor: $elemColor;
 
 //$imageFilter: grayscale(100%) sepia(100%) hue-rotate(50deg);
 $imageFilter: grayscale(100%);
+$blackToBgFilter: invert(54%) sepia(86%) saturate(239%) hue-rotate(27deg) brightness(85%) contrast(89%);
 
 // Font stacks
 $harrowgate: "Harrowgate";
