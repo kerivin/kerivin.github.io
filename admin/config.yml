@@ -1,1 +1,35 @@
+backend:
+  repo: kerivin/kerivin.github.io
+  branch: master
+  api_root: https://api.github.com
 
+  commit_messages:
+    create: Create {{collection}} "{{slug}}"
+    update: Update {{collection}} "{{slug}}"
+    delete: Delete {{collection}} "{{slug}}"
+    uploadMedia: Upload "{{path}}"
+    deleteMedia: Delete"{{path}}"
+    openAuthoring: '{{message}}'
+
+media_folder: "assets"
+site_url: https://kerivin.github.io/
+search: false
+logo_url: kerivin/kerivin.github.io/favicon.ico
+
+slug:
+  encoding: "unicode"
+
+collections:
+  name: 'blog'
+  folder: '_posts/'
+  create: true
+  slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+  editor:
+    preview: false
+  fields:
+    - { name: 'layout', widget: 'hidden', default: 'post' }
+    - { name: 'title', widget: 'string' }
+    - { name: 'date', widget: 'datetime' }
+    - { name: 'body', widget: 'markdown' }
+    - { name: 'featured', widget: 'boolean', default: 'false' }
+    - { name: 'image', widget: 'image', choose_url: 'true' }
