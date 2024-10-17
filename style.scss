@@ -29,7 +29,6 @@ body {
   background: $bgColor;
   font: 18px/1.4 $textFont;
   color: $textColor;
-  -webkit-text-fill-color: $textColor;
   font-weight: 150;
   display: flex;
   flex-direction: column;
@@ -166,7 +165,7 @@ blockquote {
 /*********************/
 
 .masthead {
-  margin-top: 30px;
+  margin-top: $postLinkGap;
   margin-bottom: $postLinkGap;
   display: block;
 }
