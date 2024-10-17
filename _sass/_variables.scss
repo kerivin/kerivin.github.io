@@ -37,6 +37,13 @@ $textColor: $elemColor;
 $imageFilter: grayscale(100%);
 $blackToBgFilter: invert(54%) sepia(86%) saturate(239%) hue-rotate(27deg) brightness(85%) contrast(89%);
 
+@media (prefers-color-scheme: dark) {
+  $bgColor: $black;
+  $elemColor: $lightGreen;
+  $postBgColor: $black;
+}
+
+
 // Font stacks
 $harrowgate: "Harrowgate";
 $robert: "Robert";
