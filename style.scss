@@ -168,6 +168,10 @@ blockquote {
   margin-top: $postLinkGap;
   margin-bottom: $postLinkGap;
   display: block;
+
+  @include mobile {
+    display: grid;
+  }
 }
 
 .site-info {
@@ -203,7 +207,7 @@ blockquote {
   justify-content: flex-end;
 
   @include mobile {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 
