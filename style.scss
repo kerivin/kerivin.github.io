@@ -168,6 +168,12 @@ blockquote {
 
 .site-info {
   float: left;
+  img {
+    display: block;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+  }
 
   @include mobile {
     float: none;
@@ -186,14 +192,6 @@ blockquote {
     text-decoration: none;
     background: none;
     color: $siteTitleColor;
-  }
-
-  img {
-    display: block;
-    max-width: 40px;
-    max-height: 40px;
-    width: auto;
-    height: auto;
   }
 }
 
