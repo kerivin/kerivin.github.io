@@ -174,14 +174,6 @@ blockquote {
   float: left;
   display: flex;
   flex-direction: row;
-  
-  img {
-    display: block;
-    max-height: 40px;
-    width: auto;
-    height: auto;
-    filter: $logoFilter;
-  }
 
   @include mobile {
     float: none;
