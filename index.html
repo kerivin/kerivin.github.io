@@ -11,14 +11,14 @@ layout: default
           {% if post.featured %}
              {% assign featured_sign="&#91;&#10033;&#93;&#32;" %}
           {% endif %}
-          <span class="post-link-text">{{ featured_sign }}{{ post.title }}</span>
+          <span class="framed-text">{{ featured_sign }}{{ post.title }}</span>
           {% assign read_time = post.content | number_of_words | divided_by: 200 %}
           {% if read_time > 0 %}
-            <span class="post-link-text">{{ read_time }} min</span>
+            <span class="framed-text">{{ read_time }} min</span>
           {% else %}
-            <span class="post-link-text">&lt;1 min</span>
+            <span class="framed-text">&lt;1 min</span>
           {% endif %}
-          <span class="post-link-text">{{ post.date | date: "%d/%m/%Y" }}</span>
+          <span class="framed-text">{{ post.date | date: "%d/%m/%Y" }}</span>
         </a>
         {% if post.image %}
           <div class="wrapper-post-image">
