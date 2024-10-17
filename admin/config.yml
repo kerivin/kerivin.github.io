@@ -15,7 +15,7 @@ backend:
 media_folder: "assets"
 site_url: https://kerivin.github.io/
 search: false
-logo_url: kerivin/kerivin.github.io/favicon.ico
+logo_url: https://kerivin.github.io/favicon.ico
 
 slug:
   encoding: "unicode"
