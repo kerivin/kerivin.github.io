@@ -24,6 +24,7 @@ collections:
 - name: 'blog'
   folder: '_posts/'
   create: true
+  delete: true
   slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
   editor:
     preview: false
