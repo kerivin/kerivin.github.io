@@ -168,6 +168,9 @@ blockquote {
 
 .site-info {
   float: left;
+  display: flex;
+  flex-direction: row;
+  
   img {
     display: block;
     max-height: 40px;
