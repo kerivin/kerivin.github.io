@@ -209,6 +209,10 @@ blockquote {
   @include mobile {
     justify-content: space-around;
   }
+
+  a {
+    text-decoration: underline dotted;
+  }
 }
 
 //
