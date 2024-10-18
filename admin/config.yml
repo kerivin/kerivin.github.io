@@ -35,7 +35,7 @@ collections:
     - { name: 'title', widget: 'string' }
     - { name: 'date', widget: 'datetime' }
     - { name: 'body', widget: 'markdown' }
-    - { name: 'featured', widget: 'boolean', default: 'false' }
+    - { name: 'featured', widget: 'boolean', default: false }
     - { name: 'image', widget: 'image', choose_url: 'true' }
     - { name: 'tags', widget: 'string' }
-    - { name: 'category', widget: 'string' }
+    - { name: 'category', widget: 'string', required: false }
