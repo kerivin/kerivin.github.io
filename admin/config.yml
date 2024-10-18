@@ -37,3 +37,5 @@ collections:
     - { name: 'body', widget: 'markdown' }
     - { name: 'featured', widget: 'boolean', default: 'false' }
     - { name: 'image', widget: 'image', choose_url: 'true' }
+    - { name: 'tags', widget: 'string' }
+    - { name: 'category', widget: 'string' }
