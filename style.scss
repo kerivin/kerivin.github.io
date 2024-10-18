@@ -171,6 +171,7 @@ blockquote {
 
   @include mobile {
     display: grid;
+    justify-items: center;
   }
 }
 
