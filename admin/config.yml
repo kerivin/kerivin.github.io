@@ -33,7 +33,7 @@ collections:
   fields:
     - { name: 'layout', widget: 'hidden', default: 'post' }
     - { name: 'title', widget: 'string' }
-    - { name: 'date', widget: 'datetime' }
+    - { name: 'date', widget: 'datetime', picker_utc: true }
     - { name: 'body', widget: 'markdown' }
     - { name: 'featured', widget: 'boolean', default: false }
     - { name: 'image', widget: 'image', choose_url: 'true' }
