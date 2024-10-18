@@ -15,21 +15,16 @@ avatar: https://avatars.githubusercontent.com/u/184678438?v=4
 # Flags below are optional
 #
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github:
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter:
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+social-links:
+  mastodon:
+    handle: @kerivin@mastodon.social
+    link: https://mastodon.social/@kerivin
+  bluesky:
+    handle: @kerivin.bsky.social
+    link: https://bsky.app/profile/kerivin.bsky.social
+  nostr:
+    handle: kerivin@nsec.app
+    link: https://njump.me/npub19mq9swna4dkhlm3jaux4yhgv5kjj556lkfhv3qnjtyh0kcljph6s88e295
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
