@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Imposing morality: 'Hacksaw Ridge' vs 'Generation Kill'"
-date: 2024-10-18T04:50:00.000Z
 featured: false
 image: https://tvpr.ru/static/images/image/225/224443.jpg
 tags: movie analysis tv show series storytelling screenplay screenwriting script
