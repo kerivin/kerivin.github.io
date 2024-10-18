@@ -208,7 +208,7 @@ blockquote {
   justify-content: flex-end;
 
   @include mobile {
-    justify-content: space-around;
+    display: block;
   }
 
   a {
