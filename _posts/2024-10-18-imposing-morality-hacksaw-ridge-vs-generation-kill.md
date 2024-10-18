@@ -32,7 +32,7 @@ Ah yes, he is also religious. Not one, but two external reasons to be good, and 
 
 ### 'Generation Kill'
 
-On the other hand, there is an HBO mini-series about... well, *war,* as you might have guessed. Does it every say anything about morality at all? No. It shows it, and does it brilliantly.
+On the other hand, there is an HBO mini-series about... well, *war,* as you might have guessed. Has it ever said anything about morality at all? No. It shows it, and does it brilliantly.
 
 The beginning might scare you off — you just watch a bunch of idiots and wonder why the hell you should be interested. The more you watch, the more you realize. They're not just a bunch of idiots, they're very different people. It's a career for someone, a morbid desire to see deaths for someone else, a way to get out of poverty for others, somebody just didn't really think through before joining... They're racist and homophobic, but at the same time funny, pragmatic and kind. It's a weird mix of all types of people you could imagine that somehow ended up working together.
 
