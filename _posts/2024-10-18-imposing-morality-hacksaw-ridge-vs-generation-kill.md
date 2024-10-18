@@ -40,13 +40,7 @@ They begin as confident jerks making insulting jokes about literally everything.
 
 Sometimes they ask questions, but they don't speak much about them. 'How did that happen that we left our ammo but destroyed a local school?'
 
-Remember when I was talking about the "Don't say 4, say 2 and 2" rule in the ['3:10 to Yuma'](/3-10-to-yuma) article? Well, 'Generation Kill' went even further and said:
-
-```
-$$
-\displaystyle\sum_{k=3}^5 k^2=x^2 + y^2 + z^2
-$$
-```
+Remember when I was talking about the "Don't say 4, say 2 and 2" rule in the ['3:10 to Yuma'](/3-10-to-yuma) article? Well, 'Generation Kill' went even further and said $\`\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)\`$.
 
 After maybe my third rewatch I finally understood most of what the characters say, because their intentions are hidden really well. And they don't speak when they don't feel like it. They're not allowed to talk about serious topics because of the unspoken rules.
 
