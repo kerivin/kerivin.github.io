@@ -40,16 +40,16 @@ They begin as confident jerks making insulting jokes about literally everything.
 
 Sometimes they ask questions, but they don't speak much about them. 'How did that happen that we left our ammo but destroyed a local school?'
 
-Remember when I was talking about the "Don't say 4, say 2 and 2" rule in the ['3:10 to Yuma'](/3-10-to-yuma) article? Well, 'Generation Kill' went even further and said $\`\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)\`$.
+Remember when I was talking about the 'Don't say 4, say 2 and 2' rule in the ['3:10 to Yuma'](/3-10-to-yuma) article? Well, 'Generation Kill' went even further and said $\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$.
 
 After maybe my third rewatch I finally understood most of what the characters say, because their intentions are hidden really well. And they don't speak when they don't feel like it. They're not allowed to talk about serious topics because of the unspoken rules.
 
 ![Soldiers in gas masks staring at you](https://i.warosu.org/data/lit/img/0127/29/1552128606997.jpg)
 
-The problems in the series are more complex than just being good or bad. One of a sergeant's man accidentally murders a kid while shooting camels for fun. It's a lot to unpack already... This show doesn't cut corners for sure. It's the first time we see a protagonist crying — and it's more important because he's the calmest here. He never showed much emotions, but it breaks something inside.
+The problems in the series are more complex than just being good or bad. One of a sergeant's man accidentally murders a kid while shooting camels for fun. It's a lot to unpack already... This show doesn't cut corners for sure. It's the first time we see the protagonist crying — and it's more important because he's the calmest here. He's never showed much emotions, but this time something inside's got broken.
 
 His driver, who's been the most funny and childish, suddenly starts a fight for absolutely no reason when they're done and about to head home.
 
-And of course, genius final moments of the last episode. Throughout the show you might have noticed guys filming random stuff, and finally they see the video. And it's terrible. Destroyed houses, explosions, corpses, burnt cars. 'Man comes around' of Johnny Cash is playing, it's the first time we hear an actual song. The soldiers leave one by one. Just one watches till the end and enjoys, and it's the same guy who killed a kid.
+And of course, genius final moments of the last episode. Throughout the show you might have noticed guys filming random stuff, and finally they see the video. And it's terrible. Destroyed houses, explosions, corpses, burnt cars. 'Man comes around' by Johnny Cash is playing, it's the first time we hear an actual song. The soldiers leave one by one. Just one watches till the end and enjoys, and it's the same guy who killed a kid.
 
 They were supposed to be proud, weren't they?
