@@ -15,15 +15,15 @@ avatar: https://avatars.githubusercontent.com/u/184678438?v=4
 # Flags below are optional
 #
 
-social-links:
+social:
   mastodon:
-    handle: @kerivin@mastodon.social
+    handle: "@kerivin@mastodon.social"
     link: https://mastodon.social/@kerivin
   bluesky:
-    handle: @kerivin.bsky.social
+    handle: "@kerivin.bsky.social"
     link: https://bsky.app/profile/kerivin.bsky.social
   nostr:
-    handle: kerivin@nsec.app
+    handle: "kerivin@nsec.app"
     link: https://njump.me/npub19mq9swna4dkhlm3jaux4yhgv5kjj556lkfhv3qnjtyh0kcljph6s88e295
 
 
