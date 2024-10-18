@@ -50,6 +50,6 @@ The problems in the series are more complex than just being good or bad. One of 
 
 His driver, who's been the most funny and childish, suddenly starts a fight for absolutely no reason when they're done and about to head home.
 
-And of course, genius final moments of the last episode. Throughout the show you might have noticed guys filming random stuff, and finally they see the video. And it's terrible. Destroyed houses, explosions, corpses, burnt cars. 'Man comes around' by Johnny Cash is playing, it's the first time we hear an actual song. The soldiers leave one by one. Just one watches till the end and enjoys, and it's the same guy who killed a kid.
+And of course, genius final moments of the last episode. Throughout the show you might have noticed guys filming random stuff, and finally they see the video. And it's terrible. Destroyed houses, explosions, corpses, burnt cars. 'Man comes around' by Johnny Cash is playing, it's the first time we hear an actual song. The soldiers leave one by one. Just one watches till the end and enjoys, and it's the same guy who killed the kid.
 
 They were supposed to be proud, weren't they?
