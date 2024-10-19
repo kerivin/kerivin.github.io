@@ -38,7 +38,9 @@ The nature argument is questionable, I doubt evolution put femininity and mascul
 
 Second, not everything that's unnatural is inherently bad. After all, we use computers and phones and TVs, plates and forks and spoons, wear eyeglasses and shoes.
 
-Third, a huge portion of femininity and masculinity is just a tradition. Yes, our bodies look different, but most of behavior and style we consider feminine and masculine have nothing to do with biological bodies; it's just an idea people have created long time ago. It doesn't really exist. People should be able to pick any point on the scale they wish, but unfortunately there is still public pressure. Some countries have less pressure, some have a ton.
+Third, a huge portion of femininity and masculinity is just a tradition, often forced. Yes, our bodies look different, but most of behavior and style we consider feminine and masculine have nothing to do with biological bodies; it's just an idea people have created long time ago. It doesn't really exist. People should be able to pick any point on the scale they wish, but unfortunately there is still public pressure which some countries have less, some have a ton.
+
+It's wrong to assume every masculine woman wants to be a man and every feminine man wants to be a woman. Yes, their traits are more common amongst an opposite sex, but how is it related? Maybe they've found their perfect point of femininity-masculinity and don't need to go further. It's also wrong to assume they want to take a role of another sex. For some reason, many people believe femininity doesn't exist without housekeeping and masculinity doesn't exist without working hard.
 
 ### Conclusion
 
