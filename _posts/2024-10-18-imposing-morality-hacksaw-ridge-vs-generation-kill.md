@@ -41,7 +41,7 @@ They begin as confident jerks making insulting jokes about literally everything.
 
 Sometimes they ask questions, but they don't speak much about them. 'How did that happen that we left our ammo but destroyed a local school?' The thing is, the more complex the topic is, the more grounded characters should be. There is nothing poetic in dialogues, unlike 'Hacksaw Ridge'; nobody in 'Generation Kill' tries to be a philosopher.
 
-Remember when I was talking about the 'Don't say 4, say 2 and 2' rule in the ['3:10 to Yuma'](/3-10-to-yuma) article? Well, 'Generation Kill' went even further and said $'\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)'$.
+Remember when I was talking about the 'Don't say 4, say 2 and 2' rule in the ['3:10 to Yuma'](/3-10-to-yuma) article? Well, 'Generation Kill' went even further and said $'\left( \sum*{k=1}^n a_k b_k \right)^2 \leq \left( \sum*{k=1}^n a*k^2 \right) \left( \sum*{k=1}^n b_k^2 \right)'$.
 
 After maybe my third rewatch I finally understood most of what the characters say, because their intentions are well hidden. They don't speak about their feelings and emotions; they're also not allowed to talk about anything serious because of the unspoken rules — but you can decode what's on their minds.
 
@@ -51,6 +51,6 @@ The problems in the series are more complex than just being good or bad. One of 
 
 His driver, who's been the most funny and childish, suddenly starts a fight for absolutely no reason when they're done and about to head home.
 
-And of course, great final moments of the last episode. Throughout the show you might have noticed guys filming random stuff, and finally they see the full video. And it's terrible. Destroyed houses, explosions, corpses, burnt cars. 'Man comes around' by Johnny Cash is playing, it's the first time we hear music. The soldiers leave one by one. Just one watches till the end and enjoys, and it's the same guy who killed the kid.
+And of course, great final moments of the last episode. Throughout the show you might have noticed guys filming random stuff, and finally they see the full video. And it's terrible. Destroyed houses, explosions, corpses, burnt cars. 'Man comes around' by Johnny Cash is playing, it's the first time we hear music. The soldiers leave one by one. Only one of them watches till the end and enjoys, and it's the same guy who killed the kid. Not a single word was spoken throughout this scene.
 
 They were supposed to be proud, weren't they?
