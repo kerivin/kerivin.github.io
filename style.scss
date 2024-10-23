@@ -204,7 +204,8 @@ blockquote {
   display: flex;
   flex-direction: row;
   gap: calc(10px + 5%);
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   justify-content: flex-end;
 
   @include mobile {
