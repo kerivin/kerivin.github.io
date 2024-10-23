@@ -43,7 +43,7 @@ Such an interesting genre, but sadly it suffers from the unexplainable love the 
 
 Every two characters should have an interesting dynamic between them. Many authors would assume it's either love or indifference, but it's a false dichotomy.
 
-Admiration, dependency, hatred, betrayal, parenting, imitation... [I have a list, lol](/writing-tropes-that-should-be-used-more). There are so many options, but a lot of authors still choose love. *It just happens so it doesn't need any explanation*, they think; but it's a wrong assumption. First, it does need an explanation anyway; and second, imagine what you could do with all those dynamics that intertwine. So many possibilities for interesting situations, and they flow smoother. The feelings don't have to be strictly rational, but they have to be psychological. In this case, different relationships between different characters show their deeper desires (that they may not realize themselves) better than any monologue.
+Obsession, admiration, dependency, hatred, betrayal, parenting, imitation... [I have a list, lol](/writing-tropes-that-should-be-used-more). There are so many options, but a lot of authors still choose love. *It just happens so it doesn't need any explanation*, they think; but it's a wrong assumption. First, it does need an explanation anyway; and second, imagine what you could do with all those dynamics that intertwine. So many possibilities for interesting situations, and they flow smoother. The feelings don't have to be strictly rational, but they have to be psychological. In this case, different relationships between different characters show their deeper desires (that they may not realize themselves) better than any monologue.
 
 ### Conclusion
 
