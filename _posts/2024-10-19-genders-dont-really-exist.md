@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Genders don't really exist
+title: Genders aren't really about feeling like a man or a woman
 date: 2024-10-23
 featured: false
 image: https://imgprx.livejournal.net/427bcc59f6ae4c831f268f9aa39cd6df9b34fe9e/wb-ffMh_QvdOxSn1QByrkT3-PQjtgrCuoVWvfNHhUl56DCgFSrMJq8ocHfqd9O3cfFg2pVGKSRKvyuYRET9vGr51aX0pmwJ7mfE1lGqS3FCK4-LVhtQP9O8fvtsDhDpG
 tags: genders lgbt lgbtq trans transition transgender gender style society
 ---
-Let's start with the obvious that needs to be said. I believe all people can say and do whatever they want as long as they don't harm anyone. I don't think transgenders are abnormal — well, maybe they are, I don't know, and that's not the point — it doesn't mean we should do anything with that. If somebody has 6 fingers and it doesn't bother them, why would you be bothered? Sure, nature didn't create people for this, but it didn't create us for glasses either. There are many things we might consider abnormal biological-wise, but it doesn't mean they shouldn't be accepted. People have been suppressing many biological things for centuries.
+Let's start with the obvious that needs to be said. I believe all people can say and do whatever they want as long as they don't harm anyone. I don't believe transgenders are abnormal — and it doesn't really matter if they are, biologically speaking — it doesn't mean we should do anything with that. If somebody has 6 fingers and it doesn't bother them, why would you be bothered? Sure, nature didn't create people for this, but it didn't create us for glasses either. There are many things we might consider abnormal biological-wise, but it doesn't mean they shouldn't be accepted.
 
 If people want to live happily and peacefully — I support them. It's that simple.
 
 This time I want to talk to you about what genders are.
 
-**TL:DR;** I believe it's a sense of style, not sex.
+**TL:DR;** I believe femininity and masculinity are both style and have nothing to do with typical men and women roles.
 
 ### People care too much
 
