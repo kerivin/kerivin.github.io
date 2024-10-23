@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Genders aren't really about feeling like a man or a woman
+title: Genders don't really exist
 date: 2024-10-23
 featured: false
 image: https://imgprx.livejournal.net/427bcc59f6ae4c831f268f9aa39cd6df9b34fe9e/wb-ffMh_QvdOxSn1QByrkT3-PQjtgrCuoVWvfNHhUl56DCgFSrMJq8ocHfqd9O3cfFg2pVGKSRKvyuYRET9vGr51aX0pmwJ7mfE1lGqS3FCK4-LVhtQP9O8fvtsDhDpG
