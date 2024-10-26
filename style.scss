@@ -89,7 +89,7 @@ ul, ol {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: disc;
 }
 
 ol {
@@ -287,6 +287,7 @@ blockquote {
 
 .posts {
   ul, ol {
+    list-style-type: none;
     margin: 0px;
     padding: 0px;
   }
