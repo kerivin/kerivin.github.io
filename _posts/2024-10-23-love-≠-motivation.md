@@ -3,7 +3,8 @@ layout: post
 title: Love ≠ motivation
 date: 2024-10-26
 featured: false
-image: https://www.muddycolors.com/wp-content/uploads/2019/09/Mark-English-couple-copy.jpg
+spoiler: false
+image: /assets/mark-english-couple-copy.jpg
 tags: love story storytelling cliche plot romance writing
 ---
 You know when you see it. It's literally everywhere. There is a lead male protagonist and a lead female protagonist, and they somehow become a couple at the end, even if they had zero chemistry. So many authors add a romance subplot when their story doesn't need any. It's an irrational tradition at this point.
