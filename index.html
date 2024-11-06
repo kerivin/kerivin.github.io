@@ -9,9 +9,13 @@ layout: default
         <a class="post-link" href="{{ post.url }}">
           {% assign featured_sign="" %}
           {% if post.featured %}
-             {% assign featured_sign="&#91;&#10033;&#93;&#32;" %}
+             {% assign featured_sign="[&#10033;] " %}
           {% endif %}
-          <span class="framed-text">{{ featured_sign }}{{ post.title }}</span>
+          {% assign spoiler_sign="" %}
+          {% if post.spoiler %}
+             {% assign spoiler_sign="[&#128065;] " %}
+          {% endif %}
+          <span class="framed-text">{{ featured_sign }}{{ spoiler_sign }}{{ post.title }}</span>
           {% assign read_time = post.content | number_of_words | divided_by: 200 %}
           {% if read_time > 0 %}
             <span class="framed-text">{{ read_time }} min</span>
