@@ -3,7 +3,8 @@ layout: post
 title: Genders don't really exist
 date: 2024-10-23
 featured: false
-image: https://imgprx.livejournal.net/427bcc59f6ae4c831f268f9aa39cd6df9b34fe9e/wb-ffMh_QvdOxSn1QByrkT3-PQjtgrCuoVWvfNHhUl56DCgFSrMJq8ocHfqd9O3cfFg2pVGKSRKvyuYRET9vGr51aX0pmwJ7mfE1lGqS3FCK4-LVhtQP9O8fvtsDhDpG
+spoiler: false
+image: /assets/bfe26cb8dd889d9be4b702d1d7d0d902.jpg
 tags: genders lgbt lgbtq trans transition transgender gender style society
 ---
 Let's start with the obvious that needs to be said. I believe all people can say and do whatever they want as long as they don't harm anyone. I don't believe transgenders are abnormal — and it doesn't really matter if they are, biologically speaking — it doesn't mean we should do anything with that. If somebody has 6 fingers and it doesn't bother them, why would you be bothered? Sure, nature didn't create people for this, but it didn't create us for glasses either. There are many things we might consider abnormal biological-wise, but it doesn't mean they shouldn't be accepted.
