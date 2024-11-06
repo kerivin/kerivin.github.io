@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Visual Design of Nostr clients
+date: 2024-10-10
+featured: false
+spoiler: false
+image: /assets/ccdbb708a0e24b7d8c0ba17a22ab39fc.jpg
 tags: nostr visual design client clients
-image: 'https://i.pinimg.com/originals/cc/db/b7/ccdbb708a0e24b7d8c0ba17a22ab39fc.jpg'
 ---
 Developers have already created [numerous Nostr clients for everything you can possibly do there](https://habla.news/u/vitorpamplona.com/1728488779653). Other clients are in development now, and some exist just as ideas in developers' minds.
 
