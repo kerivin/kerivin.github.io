@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Red Dead Redemtion 2 is a game without gamification
+title: Red Dead Redemption 2 is a game without gamification
 date: 2024-11-06
 featured: false
 spoiler: true
