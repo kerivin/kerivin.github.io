@@ -3,7 +3,7 @@ layout: post
 title: "Imposing morality: 'Hacksaw Ridge' vs 'Generation Kill'"
 date: 2024-10-18
 featured: false
-spoiler: false
+spoiler: true
 image: /assets/generation_kill.jpg
 tags: movie analysis tv show series storytelling screenplay screenwriting script
   scriptwriting generation kill hacksaw ridge
