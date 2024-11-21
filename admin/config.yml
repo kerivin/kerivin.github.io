@@ -2,7 +2,7 @@ backend:
   name: github
   repo: kerivin/kerivin.github.io
   branch: master
-  base_url: https://sveltia-cms-auth.kerivin-zero.workers.dev
+  base_url: https://sveltia-cms-auth.kerivin.workers.dev
   api_root: https://api.github.com
 
   commit_messages:
