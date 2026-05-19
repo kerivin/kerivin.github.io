@@ -33,6 +33,8 @@ That's why it's probably the best memoir I've ever read: Lawrence was not a regu
 
 I've read the 1922 version which I believe is better than the 1926 one. It has more intimate, honest, biting phrases which he softened or removed in 1926. I mean I understand why, some of them were very personal and/or quite harsh. 'Imbecile god whose worship was imbecility in us' of 1922 is way sharper than 'imbecile unanimity' of 1926, and that's exactly the reason why I recommend the 1922 one.
 
-The weirdest author I've read to say the least.
+His most famous biography's title is 'A Prince of Our Disorder'. And yeah, the word 'disorder' comes to mind while reading this. For sure, he had inherited some.
+
+The weirdest author I've read to say the least. What a magnificent book.
 
 > They talked of food and illness, games and pleasures: with me, who felt that to recognize our possession of bodies was degradation enough, let alone to enlarge upon their needs and attributes. These others were outwardly so like me that I would feel shame for myself, seeing them wallow in what I judged shame: since the physical could be only a glorification of man's cross. Indeed the truth was always that I did not like myself.
