@@ -18,12 +18,6 @@ social:
   bluesky:
     handle: "@keringo.bsky.social"
     link: https://bsky.app/profile/keringo.bsky.social
-  nostr:
-    handle: "keringo@nsec.app"
-    link: https://njump.me/npub19mq9swna4dkhlm3jaux4yhgv5kjj556lkfhv3qnjtyh0kcljph6s88e295
-  matrix:
-    handle: "@gaurtzer:converser.eu"
-    link: https://matrix.to/#/@gaurtzer:converser.eu
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
