@@ -7,7 +7,7 @@ spoiler: true
 image: https://i.pinimg.com/originals/14/54/7a/14547a33a048185f0f46331386ce29c4.jpg
 tags: rdr2 reddeadredemption2 games
 ---
-I've recently finished RDR2 for the first time, and, well, I'm a fan now. I became a fan from a second when I as Arthur shot his first bullet, and the great music kicked in at the same moment. It was my first impression, and the cinematography, the dialogues, the music — everything game me a feeling this was my type of game.
+I've recently finished RDR2 for the first time, and, well, I'm a fan now. I became a fan from a second when I as Arthur shot his first bullet, and the great music kicked in at the same moment. It was my first impression, and the cinematography, the dialogues, the music — everything gave me a feeling this was my type of game.
 
 ### Immersion
 
