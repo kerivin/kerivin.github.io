@@ -9,6 +9,8 @@ tags: telawrence lawrence of arabia review seven pillars of wisdom
 ---
 The best book I've ever read. It's weird, but that's the point.
 
+By the way, there is close to none wisdom in it.
+
 I've read a few war memoirs before, but this one is quite a riddle. Usually what happens is a sane person finds himself in insane circumstances, but here it's actually the opposite. Lawrence doesn't say much about himself (even his age until after 90% of the book), and I had to 'solve' what the hell he was thinking, so I can only guess. Oh Freud would love to chat with him, and I mean it in a good way, as in his deep inner conflicts were thriving during the war, which surprises you as well as it seemed to surprise Lawrence himself. At the beginning you think Lawrence is pretty normal, but the more you read the weirder he gets.
 
 His opinion might change to the opposite in the next paragraph, his mood changes every so many pages, his development from young idealism to disappointment in himself is insane. He might say 'we' as in 'we, Englishmen' along with 'them' as in 'them, Arabs' and then switches to 'we, Arabs' & 'them, Englishmen' in the very next sentence. He deceives you by attributing his own flaws to others and then condemns them. It seems he wants to believe all the terrible things he does are necessary evil, but every time he reassures you that he doesn't enjoy violence something like this happens:
