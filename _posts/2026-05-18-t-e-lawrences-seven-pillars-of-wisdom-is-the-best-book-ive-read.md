@@ -19,11 +19,7 @@ His opinion might change to the opposite in the next paragraph, his mood changes
 
 Quite interesting to compare it to the 1922 version:
 
-> ... I kicked them off 
->
-> *in disgust*
->
->  as well as I could with my bare feet, and finally broke free of them.
+> ... I kicked them off *in disgust* as well as I could with my bare feet, and finally broke free of them.
 
 There are many instances when Lawrence is way more angry and sad and ashamed and violent in the 1922 version of the book. Nobody asked him to blow up any trains or commit massacres *more than once*, but when he does he writes that he will 'never be clean again' after all the things he's done. The more he achieves the stronger shame he feels.
 
