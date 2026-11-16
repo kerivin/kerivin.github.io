@@ -4,7 +4,7 @@ title: Text is Text
 date: 2026-11-16
 featured: false
 spoiler: false
-image: /assets/screenshot-2026-11-16-at-18-07-14-out-of-the-dark-handwerk-specimen.png
+image: /assets/screenshot-2026-11-16-at-18-10-14-out-of-the-dark-handwerk-specimen.png
 tags: art text books writing
 ---
 I like text. It's the most basic form of art among pictures, video, and sound, and is arguably the most minimalistic one. There's not much that can be done with text. Authors naturally use text for its word meanings, but text has more to offer than that. Poetry introduced rhythm, and some use basic formatting such as italics, bold, underlining, etc. That's it, usually.
